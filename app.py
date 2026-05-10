@@ -1,9 +1,14 @@
 # app.py
+
 import logging
 from flask import Flask
+from flask_cors import CORS
 from routes.pedidos import routes
 
 app = Flask(__name__)
+
+# ACTIVAR CORS
+CORS(app)
 
 logging.basicConfig(
     filename="logs/app.log",

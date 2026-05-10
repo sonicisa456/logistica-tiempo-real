@@ -164,3 +164,187 @@
 2026-05-07 19:51:07,656 - INFO - 172.20.0.1 - - [07/May/2026 19:51:07] "[33mPUT /pedido/2 HTTP/1.1[0m" 404 -
 2026-05-07 19:51:13,969 - INFO - Pedido 1 actualizado a EN_RUTA
 2026-05-07 19:51:13,970 - INFO - 172.20.0.1 - - [07/May/2026 19:51:13] "PUT /pedido/1 HTTP/1.1" 200 -
+2026-05-09 20:57:28,425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-09 20:57:28,426 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 20:57:28,428 - INFO -  * Restarting with stat
+2026-05-09 20:57:29,309 - WARNING -  * Debugger is active!
+2026-05-09 20:57:29,311 - INFO -  * Debugger PIN: 112-347-966
+2026-05-09 21:08:57,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-09 21:08:57,260 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 21:08:57,263 - INFO -  * Restarting with stat
+2026-05-09 21:08:57,843 - WARNING -  * Debugger is active!
+2026-05-09 21:08:57,848 - INFO -  * Debugger PIN: 199-510-211
+2026-05-10 01:42:48,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 01:42:48,936 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 01:42:48,936 - INFO -  * Restarting with stat
+2026-05-10 01:42:49,184 - WARNING -  * Debugger is active!
+2026-05-10 01:42:49,187 - INFO -  * Debugger PIN: 354-542-323
+2026-05-10 01:43:03,847 - INFO - 172.19.0.1 - - [10/May/2026 01:43:03] "GET / HTTP/1.1" 200 -
+2026-05-10 01:43:03,968 - INFO - 172.19.0.1 - - [10/May/2026 01:43:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-10 01:43:33,158 - INFO - 172.19.0.1 - - [10/May/2026 01:43:33] "GET / HTTP/1.1" 200 -
+2026-05-10 02:22:54,076 - INFO - 172.19.0.1 - - [10/May/2026 02:22:54] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:22:58,056 - INFO - 172.19.0.1 - - [10/May/2026 02:22:58] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:24:30,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:24:30,562 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:24:30,564 - INFO -  * Restarting with stat
+2026-05-10 02:24:30,845 - WARNING -  * Debugger is active!
+2026-05-10 02:24:30,848 - INFO -  * Debugger PIN: 835-223-250
+2026-05-10 02:29:04,426 - INFO - 172.19.0.1 - - [10/May/2026 02:29:04] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:32:23,787 - INFO -  * Detected change in '/app/app.py', reloading
+2026-05-10 02:32:24,010 - INFO -  * Restarting with stat
+2026-05-10 02:33:44,110 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:33:44,110 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:33:44,112 - INFO -  * Restarting with stat
+2026-05-10 02:33:44,379 - WARNING -  * Debugger is active!
+2026-05-10 02:33:44,380 - INFO -  * Debugger PIN: 127-793-599
+2026-05-10 02:34:11,450 - INFO - 172.19.0.1 - - [10/May/2026 02:34:11] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:34:11,529 - INFO - 172.19.0.1 - - [10/May/2026 02:34:11] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:34:14,729 - INFO - 172.19.0.1 - - [10/May/2026 02:34:14] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:34:37,060 - INFO - 172.19.0.1 - - [10/May/2026 02:34:37] "GET / HTTP/1.1" 200 -
+2026-05-10 02:34:58,090 - INFO - 172.19.0.1 - - [10/May/2026 02:34:58] "[31m[1mGET /pedido HTTP/1.1[0m" 405 -
+2026-05-10 02:41:13,420 - INFO - 172.19.0.1 - - [10/May/2026 02:41:13] "[31m[1mGET /pedido HTTP/1.1[0m" 405 -
+2026-05-10 02:41:19,943 - INFO - 172.19.0.1 - - [10/May/2026 02:41:19] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:41:20,096 - INFO - 172.19.0.1 - - [10/May/2026 02:41:20] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:54:30,622 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:54:30,622 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:54:30,623 - INFO -  * Restarting with stat
+2026-05-10 02:54:30,904 - WARNING -  * Debugger is active!
+2026-05-10 02:54:30,907 - INFO -  * Debugger PIN: 955-406-297
+2026-05-10 02:55:11,042 - INFO - 172.19.0.1 - - [10/May/2026 02:55:11] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:55:11,133 - INFO - 172.19.0.1 - - [10/May/2026 02:55:11] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:55:14,353 - INFO - 172.19.0.1 - - [10/May/2026 02:55:14] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:58:03,599 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:58:03,599 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:58:03,600 - INFO -  * Restarting with stat
+2026-05-10 02:58:03,858 - WARNING -  * Debugger is active!
+2026-05-10 02:58:03,859 - INFO -  * Debugger PIN: 329-740-005
+2026-05-10 02:59:25,913 - INFO - 172.19.0.1 - - [10/May/2026 02:59:25] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:59:26,018 - INFO - 172.19.0.1 - - [10/May/2026 02:59:26] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 21:05:37,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.80.222:5000
+2026-05-09 21:05:37,477 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 21:05:37,477 - INFO -  * Restarting with stat
+2026-05-09 21:05:37,772 - WARNING -  * Debugger is active!
+2026-05-09 21:05:37,772 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 03:33:31,660 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 03:33:31,661 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 03:33:31,662 - INFO -  * Restarting with stat
+2026-05-10 03:33:31,942 - WARNING -  * Debugger is active!
+2026-05-10 03:33:31,944 - INFO -  * Debugger PIN: 136-493-418
+2026-05-09 21:34:30,159 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.80.222:5000
+2026-05-09 21:34:30,159 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 21:34:30,161 - INFO -  * Restarting with stat
+2026-05-09 21:34:30,455 - WARNING -  * Debugger is active!
+2026-05-09 21:34:30,460 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 03:34:48,232 - INFO - 172.19.0.1 - - [10/May/2026 03:34:48] "GET / HTTP/1.1" 200 -
+2026-05-10 03:34:48,981 - INFO - 172.19.0.1 - - [10/May/2026 03:34:48] "GET / HTTP/1.1" 200 -
+2026-05-10 03:35:32,469 - INFO - 172.19.0.1 - - [10/May/2026 03:35:32] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 03:35:32,593 - INFO - 172.19.0.1 - - [10/May/2026 03:35:32] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 21:38:57,805 - INFO - 127.0.0.1 - - [09/May/2026 21:38:57] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-09 21:38:58,232 - INFO - package: mysql.connector.plugins
+2026-05-09 21:38:58,232 - INFO - plugin_name: caching_sha2_password
+2026-05-09 21:38:58,232 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-09 21:38:58,300 - INFO - 127.0.0.1 - - [09/May/2026 21:38:58] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 21:58:13,265 - INFO - 127.0.0.1 - - [09/May/2026 21:58:13] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-09 21:58:13,645 - INFO - 127.0.0.1 - - [09/May/2026 21:58:13] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:06:17,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:06:17,616 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:06:17,617 - INFO -  * Restarting with stat
+2026-05-10 04:06:17,941 - WARNING -  * Debugger is active!
+2026-05-10 04:06:17,944 - INFO -  * Debugger PIN: 691-780-056
+2026-05-10 04:06:40,600 - INFO - 172.19.0.1 - - [10/May/2026 04:06:40] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:06:40,656 - INFO - 172.19.0.1 - - [10/May/2026 04:06:40] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:06:43,444 - INFO - 172.19.0.1 - - [10/May/2026 04:06:43] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:06:57,283 - INFO - 172.19.0.1 - - [10/May/2026 04:06:57] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:06:57,335 - INFO - 172.19.0.1 - - [10/May/2026 04:06:57] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 22:12:55,903 - INFO -  * Detected change in 'C:\\Users\\gael0\\OneDrive\\Escritorio\\UI web\\logistica-tiempo-real\\db.py', reloading
+2026-05-09 22:12:56,057 - INFO -  * Restarting with stat
+2026-05-09 22:12:56,658 - WARNING -  * Debugger is active!
+2026-05-09 22:12:56,674 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 04:13:38,756 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:13:38,757 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:13:38,758 - INFO -  * Restarting with stat
+2026-05-10 04:13:39,023 - WARNING -  * Debugger is active!
+2026-05-10 04:13:39,026 - INFO -  * Debugger PIN: 898-912-792
+2026-05-10 04:16:50,256 - INFO - 172.19.0.1 - - [10/May/2026 04:16:50] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:16:54,334 - INFO - 172.19.0.1 - - [10/May/2026 04:16:54] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:16:56,698 - INFO - 172.19.0.1 - - [10/May/2026 04:16:56] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:16:59,556 - INFO - 172.19.0.1 - - [10/May/2026 04:16:59] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:17:03,503 - INFO - 172.19.0.1 - - [10/May/2026 04:17:03] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:38:40,064 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:38:40,065 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:38:40,066 - INFO -  * Restarting with stat
+2026-05-10 04:38:40,315 - WARNING -  * Debugger is active!
+2026-05-10 04:38:40,318 - INFO -  * Debugger PIN: 224-172-194
+2026-05-10 04:42:36,835 - INFO - 172.19.0.1 - - [10/May/2026 04:42:36] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:42:40,900 - INFO - 172.19.0.1 - - [10/May/2026 04:42:40] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 22:42:53,617 - INFO -  * Detected change in 'C:\\Users\\gael0\\OneDrive\\Escritorio\\UI web\\logistica-tiempo-real\\models\\pedidos.py', reloading
+2026-05-09 22:42:53,763 - INFO -  * Restarting with stat
+2026-05-09 22:42:54,214 - WARNING -  * Debugger is active!
+2026-05-09 22:42:54,214 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 04:42:54,457 - INFO -  * Detected change in '/app/models/pedidos.py', reloading
+2026-05-10 04:42:54,586 - INFO -  * Restarting with stat
+2026-05-10 04:42:55,032 - WARNING -  * Debugger is active!
+2026-05-10 04:42:55,035 - INFO -  * Debugger PIN: 224-172-194
+2026-05-10 04:43:03,161 - INFO - 172.19.0.1 - - [10/May/2026 04:43:03] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:43:07,187 - INFO - 172.19.0.1 - - [10/May/2026 04:43:07] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:45:36,792 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-10 04:45:36,990 - INFO -  * Restarting with stat
+2026-05-10 04:45:37,377 - WARNING -  * Debugger is active!
+2026-05-10 04:45:37,380 - INFO -  * Debugger PIN: 224-172-194
+2026-05-10 04:48:15,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:48:15,780 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:48:15,781 - INFO -  * Restarting with stat
+2026-05-10 04:48:16,070 - WARNING -  * Debugger is active!
+2026-05-10 04:48:16,073 - INFO -  * Debugger PIN: 129-368-258
+2026-05-10 04:49:23,950 - INFO - 172.19.0.1 - - [10/May/2026 04:49:23] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:49:24,106 - INFO - Pedido creado por jp
+2026-05-10 04:49:24,107 - INFO - 172.19.0.1 - - [10/May/2026 04:49:24] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-10 04:51:41,519 - INFO - 172.19.0.1 - - [10/May/2026 04:51:41] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:51:41,632 - INFO - Pedido creado por gael
+2026-05-10 04:51:41,645 - INFO - 172.19.0.1 - - [10/May/2026 04:51:41] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-10 05:23:41,181 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-10 05:23:41,491 - INFO -  * Restarting with stat
+2026-05-10 05:23:42,053 - WARNING -  * Debugger is active!
+2026-05-10 05:23:42,060 - INFO -  * Debugger PIN: 129-368-258
