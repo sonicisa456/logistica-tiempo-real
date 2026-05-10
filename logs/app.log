@@ -348,3 +348,27 @@
 2026-05-10 05:23:41,491 - INFO -  * Restarting with stat
 2026-05-10 05:23:42,053 - WARNING -  * Debugger is active!
 2026-05-10 05:23:42,060 - INFO -  * Debugger PIN: 129-368-258
+2026-05-10 17:04:48,060 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-10 17:04:48,061 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 17:04:48,062 - INFO -  * Restarting with stat
+2026-05-10 17:04:48,503 - WARNING -  * Debugger is active!
+2026-05-10 17:04:48,504 - INFO -  * Debugger PIN: 113-632-397
+2026-05-10 17:05:43,270 - INFO - Pedido creado por Isaias
+2026-05-10 17:05:43,271 - INFO - 172.20.0.1 - - [10/May/2026 17:05:43] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-10 17:11:39,568 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-10 17:11:39,600 - INFO -  * Restarting with stat
+2026-05-10 17:11:40,268 - WARNING -  * Debugger is active!
+2026-05-10 17:11:40,269 - INFO -  * Debugger PIN: 113-632-397
+2026-05-10 17:12:22,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-10 17:12:22,834 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 17:12:22,835 - INFO -  * Restarting with stat
+2026-05-10 17:12:23,293 - WARNING -  * Debugger is active!
+2026-05-10 17:12:23,295 - INFO -  * Debugger PIN: 291-622-173
+2026-05-10 17:12:47,032 - INFO - Pedido creado por Ricardo
+2026-05-10 17:12:47,033 - INFO - 172.20.0.1 - - [10/May/2026 17:12:47] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
