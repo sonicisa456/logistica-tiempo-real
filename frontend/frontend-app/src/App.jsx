@@ -973,14 +973,6 @@ function App() {
           </div>
         </section>
 
-        <section className="quick-menu glass-card">
-          <button className="quick-link" type="button" onClick={handleSearch}>Buscar</button>
-          <button className="quick-link" type="button" onClick={openCart}>Carrito</button>
-          <button className="quick-link" type="button" onClick={openOrders}>Pedidos</button>
-          <button className="quick-link" type="button" onClick={handleSellClick}>Publicar</button>
-          <button className="quick-link" type="button" onClick={() => setTheme(theme === "dark" ? "light" : "dark")}>{theme === "dark" ? "Tema claro" : "Tema oscuro"}</button>
-        </section>
-
         <section className="info-strip">
           <div><strong>Dirección actual:</strong> {location.ciudad}, {location.estado}, {location.pais}</div>
           <div><strong>Cuenta:</strong> {loggedIn ? user?.email : "Invitado"}</div>

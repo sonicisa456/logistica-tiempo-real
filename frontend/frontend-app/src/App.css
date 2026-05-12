@@ -12,8 +12,8 @@
   background:
     radial-gradient(circle at top left, rgba(249, 213, 109, 0.18), transparent 28%),
     radial-gradient(circle at top right, rgba(59, 130, 246, 0.12), transparent 22%),
-    linear-gradient(180deg, #f8fafc 0%, #e2e8f0 46%, #f8fafc 100%);
-  color: #111827;
+    linear-gradient(180deg, #f8f9fa 0%, #e9ecef 46%, #f8f9fa 100%);
+  color: #212529;
 }
 
 .theme-light .topbar,
@@ -25,12 +25,12 @@
 .theme-light .collection-block,
 .theme-light .modal-card {
   background: rgba(255, 255, 255, 0.96);
-  color: #111827;
+  color: #212529;
 }
 
 .theme-light .search-box {
-  background: #eff6ff;
-  color: #111827;
+  background: #e9ecef;
+  color: #212529;
 }
 
 .theme-light .search-box input,
@@ -67,7 +67,7 @@
   grid-template-columns: minmax(240px, 1.4fr) minmax(360px, 2.6fr) minmax(320px, 1.6fr);
   gap: 18px;
   align-items: center;
-  padding: 18px 26px;
+  padding: 12px 20px;
   width: 100%;
   background: rgba(8, 14, 28, 0.96);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -140,7 +140,7 @@
 }
 
 .search-box input::placeholder {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(33, 37, 41, 0.6);
 }
 
 .search-box button {
@@ -192,9 +192,9 @@
 
 .action-pill-group {
   display: flex;
-  flex-wrap: wrap;
   gap: 10px;
   justify-content: flex-end;
+  align-items: center;
 }
 
 .header-pill,
