@@ -1,12 +1,41 @@
 # models/pedidos.py
 from db import get_connection
 
-def crear_pedido(cliente):
+def crear_pedido(usuario_id, total, productos):
+
     conn = get_connection()
+
     cursor = conn.cursor()
-    query = "INSERT INTO pedidos (cliente, estado) VALUES (%s, %s)"
-    cursor.execute(query, (cliente, "EN_ALMACEN"))
+
+    # Crear pedido
+    query = """
+    INSERT INTO pedidos(usuario_id, total, estado)
+    VALUES(%s, %s, %s)
+    """
+
+    cursor.execute(query, (usuario_id, total, "EN_ALMACEN"))
+
+    pedido_id = cursor.lastrowid
+
+    # Guardar productos del pedido
+    for producto in productos:
+
+        query_item = """
+        INSERT INTO pedido_items(pedido_id, producto_id, cantidad)
+        VALUES(%s, %s, %s)
+        """
+
+        cursor.execute(
+            query_item,
+            (
+                pedido_id,
+                producto["producto_id"],
+                producto["cantidad"]
+            )
+        )
+
     conn.commit()
+
     conn.close()
 
 def obtener_pedido(id):

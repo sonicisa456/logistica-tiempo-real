@@ -3,7 +3,10 @@
 import logging
 from flask import Flask
 from flask_cors import CORS
-from routes.api import api
+
+from routes.pedidos import routes
+from routes.productos import productos_routes
+from routes.usuarios import usuarios_routes
 
 app = Flask(__name__)
 
@@ -16,7 +19,9 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-app.register_blueprint(api)
+app.register_blueprint(routes)
+app.register_blueprint(productos_routes)
+app.register_blueprint(usuarios_routes)
 
 @app.route("/")
 def home():
