@@ -1,0 +1,664 @@
+2026-05-05 14:13:50,221 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 14:13:50,221 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:13:50,222 - INFO -  * Restarting with stat
+2026-05-05 14:13:50,560 - WARNING -  * Debugger is active!
+2026-05-05 14:13:50,577 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:14:12,162 - INFO - package: mysql.connector.plugins
+2026-05-05 14:14:12,162 - INFO - plugin_name: caching_sha2_password
+2026-05-05 14:14:12,162 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-05 14:14:12,208 - INFO - 127.0.0.1 - - [05/May/2026 14:14:12] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-05 14:14:55,225 - INFO - 127.0.0.1 - - [05/May/2026 14:14:55] "[35m[1mGET /pedido/1 HTTP/1.1[0m" 500 -
+2026-05-05 14:15:52,676 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 14:15:52,676 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:15:52,677 - INFO -  * Restarting with stat
+2026-05-05 14:15:53,008 - WARNING -  * Debugger is active!
+2026-05-05 14:15:53,021 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:17:47,181 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-05 14:17:47,181 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:17:47,182 - INFO -  * Restarting with stat
+2026-05-05 14:17:47,529 - WARNING -  * Debugger is active!
+2026-05-05 14:17:47,542 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:17:57,994 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.6.117:5000
+2026-05-05 14:17:57,994 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:17:57,998 - INFO -  * Restarting with stat
+2026-05-05 14:17:58,359 - WARNING -  * Debugger is active!
+2026-05-05 14:17:58,372 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:18:44,892 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.6.117:5000
+2026-05-05 14:18:44,892 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:18:44,895 - INFO -  * Restarting with stat
+2026-05-05 14:18:45,237 - WARNING -  * Debugger is active!
+2026-05-05 14:18:45,250 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:18:55,216 - INFO - package: mysql.connector.plugins
+2026-05-05 14:18:55,216 - INFO - plugin_name: caching_sha2_password
+2026-05-05 14:18:55,216 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-05 14:18:55,246 - INFO - 127.0.0.1 - - [05/May/2026 14:18:55] "[35m[1mGET /pedido/1 HTTP/1.1[0m" 500 -
+2026-05-05 14:18:55,333 - INFO - 127.0.0.1 - - [05/May/2026 14:18:55] "GET /pedido/1?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-05-05 14:18:55,333 - INFO - 127.0.0.1 - - [05/May/2026 14:18:55] "GET /pedido/1?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-05-05 14:18:55,361 - INFO - 127.0.0.1 - - [05/May/2026 14:18:55] "GET /pedido/1?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-05-05 14:18:55,365 - INFO - 127.0.0.1 - - [05/May/2026 14:18:55] "GET /pedido/1?__debugger__=yes&cmd=resource&f=console.png&s=0kIHePsN2csoMRDQxFWE HTTP/1.1" 200 -
+2026-05-05 14:19:43,371 - INFO - 127.0.0.1 - - [05/May/2026 14:19:43] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-05 14:20:17,022 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.6.117:5000
+2026-05-05 14:20:17,022 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:20:17,026 - INFO -  * Restarting with stat
+2026-05-05 14:20:17,381 - WARNING -  * Debugger is active!
+2026-05-05 14:20:17,394 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:21:50,805 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\app.py', reloading
+2026-05-05 14:21:50,840 - INFO -  * Restarting with stat
+2026-05-05 14:21:51,188 - WARNING -  * Debugger is active!
+2026-05-05 14:21:51,201 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:22:00,078 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.6.117:5000
+2026-05-05 14:22:00,078 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:22:00,082 - INFO -  * Restarting with stat
+2026-05-05 14:22:00,450 - WARNING -  * Debugger is active!
+2026-05-05 14:22:00,463 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:22:04,466 - INFO - 127.0.0.1 - - [05/May/2026 14:22:04] "GET / HTTP/1.1" 200 -
+2026-05-05 14:22:04,530 - INFO - 127.0.0.1 - - [05/May/2026 14:22:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-05 14:25:38,170 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\db.py', reloading
+2026-05-05 14:25:38,239 - INFO -  * Restarting with stat
+2026-05-05 14:25:38,979 - WARNING -  * Debugger is active!
+2026-05-05 14:25:39,003 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:25:47,508 - INFO - package: mysql.connector.plugins
+2026-05-05 14:25:47,508 - INFO - plugin_name: caching_sha2_password
+2026-05-05 14:25:47,508 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-05 14:25:47,663 - INFO - 127.0.0.1 - - [05/May/2026 14:25:47] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-05 14:28:06,260 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\db.py', reloading
+2026-05-05 14:28:06,332 - INFO -  * Restarting with stat
+2026-05-05 14:28:07,051 - WARNING -  * Debugger is active!
+2026-05-05 14:28:07,082 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:28:15,741 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.6.117:5000
+2026-05-05 14:28:15,741 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 14:28:15,745 - INFO -  * Restarting with stat
+2026-05-05 14:28:16,443 - WARNING -  * Debugger is active!
+2026-05-05 14:28:16,467 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 14:28:29,260 - INFO - package: mysql.connector.plugins
+2026-05-05 14:28:29,260 - INFO - plugin_name: caching_sha2_password
+2026-05-05 14:28:29,260 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-05 14:28:29,399 - INFO - 127.0.0.1 - - [05/May/2026 14:28:29] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-05 18:06:16,747 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.69:5000
+2026-05-05 18:06:16,747 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 18:06:16,749 - INFO -  * Restarting with stat
+2026-05-05 18:06:17,196 - WARNING -  * Debugger is active!
+2026-05-05 18:06:17,211 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 18:06:46,696 - INFO - package: mysql.connector.plugins
+2026-05-05 18:06:46,698 - INFO - plugin_name: caching_sha2_password
+2026-05-05 18:06:46,699 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-05 18:06:46,843 - INFO - 127.0.0.1 - - [05/May/2026 18:06:46] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-05 18:16:18,394 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.69:5000
+2026-05-05 18:16:18,394 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 18:16:18,395 - INFO -  * Restarting with stat
+2026-05-05 18:16:18,740 - WARNING -  * Debugger is active!
+2026-05-05 18:16:18,754 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 18:16:28,154 - INFO - package: mysql.connector.plugins
+2026-05-05 18:16:28,154 - INFO - plugin_name: caching_sha2_password
+2026-05-05 18:16:28,155 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-05 18:16:28,195 - INFO - Pedido creado
+2026-05-05 18:16:28,196 - INFO - 127.0.0.1 - - [05/May/2026 18:16:28] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-05 18:16:51,098 - INFO - 127.0.0.1 - - [05/May/2026 18:16:51] "GET /pedido/1 HTTP/1.1" 200 -
+2026-05-05 18:18:37,744 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\models.py', reloading
+2026-05-05 18:18:37,778 - INFO -  * Restarting with stat
+2026-05-05 18:18:38,143 - WARNING -  * Debugger is active!
+2026-05-05 18:18:38,156 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 18:19:48,089 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.69:5000
+2026-05-05 18:19:48,089 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-05 18:19:48,090 - INFO -  * Restarting with stat
+2026-05-05 18:19:48,424 - WARNING -  * Debugger is active!
+2026-05-05 18:19:48,436 - INFO -  * Debugger PIN: 146-191-866
+2026-05-05 18:19:51,442 - INFO - package: mysql.connector.plugins
+2026-05-05 18:19:51,442 - INFO - plugin_name: caching_sha2_password
+2026-05-05 18:19:51,442 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-05 18:19:51,515 - INFO - Pedido 1 actualizado a EN_RUTA
+2026-05-05 18:19:51,515 - INFO - 127.0.0.1 - - [05/May/2026 18:19:51] "PUT /pedido/1 HTTP/1.1" 200 -
+2026-05-07 13:35:23,125 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.4.166:5000
+2026-05-07 13:35:23,126 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-07 13:35:23,128 - INFO -  * Restarting with stat
+2026-05-07 13:35:23,493 - WARNING -  * Debugger is active!
+2026-05-07 13:35:23,508 - INFO -  * Debugger PIN: 146-191-866
+2026-05-07 13:35:29,061 - INFO - 127.0.0.1 - - [07/May/2026 13:35:29] "GET / HTTP/1.1" 200 -
+2026-05-07 13:35:29,172 - INFO - 127.0.0.1 - - [07/May/2026 13:35:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-07 13:35:59,473 - INFO - 127.0.0.1 - - [07/May/2026 13:35:59] "[31m[1mGET /pedido HTTP/1.1[0m" 405 -
+2026-05-07 13:36:16,328 - INFO - 127.0.0.1 - - [07/May/2026 13:36:16] "[31m[1mGET /pedido HTTP/1.1[0m" 405 -
+2026-05-07 19:43:09,617 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-07 19:43:09,618 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-07 19:43:09,620 - INFO -  * Restarting with stat
+2026-05-07 19:43:10,045 - WARNING -  * Debugger is active!
+2026-05-07 19:43:10,046 - INFO -  * Debugger PIN: 120-918-316
+2026-05-07 19:44:18,478 - INFO - 172.20.0.1 - - [07/May/2026 19:44:18] "GET / HTTP/1.1" 200 -
+2026-05-07 19:44:43,215 - INFO - 172.20.0.1 - - [07/May/2026 19:44:43] "[31m[1mPOST / HTTP/1.1[0m" 405 -
+2026-05-07 19:44:50,814 - INFO - 172.20.0.1 - - [07/May/2026 19:44:50] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-07 19:50:36,818 - INFO - Pedido creado por Ricardo
+2026-05-07 19:50:36,820 - INFO - 172.20.0.1 - - [07/May/2026 19:50:36] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-07 19:51:07,654 - ERROR - Pedido no encontrado
+2026-05-07 19:51:07,656 - INFO - 172.20.0.1 - - [07/May/2026 19:51:07] "[33mPUT /pedido/2 HTTP/1.1[0m" 404 -
+2026-05-07 19:51:13,969 - INFO - Pedido 1 actualizado a EN_RUTA
+2026-05-07 19:51:13,970 - INFO - 172.20.0.1 - - [07/May/2026 19:51:13] "PUT /pedido/1 HTTP/1.1" 200 -
+2026-05-09 20:57:28,425 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-09 20:57:28,426 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 20:57:28,428 - INFO -  * Restarting with stat
+2026-05-09 20:57:29,309 - WARNING -  * Debugger is active!
+2026-05-09 20:57:29,311 - INFO -  * Debugger PIN: 112-347-966
+2026-05-09 21:08:57,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-09 21:08:57,260 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 21:08:57,263 - INFO -  * Restarting with stat
+2026-05-09 21:08:57,843 - WARNING -  * Debugger is active!
+2026-05-09 21:08:57,848 - INFO -  * Debugger PIN: 199-510-211
+2026-05-10 01:42:48,935 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 01:42:48,936 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 01:42:48,936 - INFO -  * Restarting with stat
+2026-05-10 01:42:49,184 - WARNING -  * Debugger is active!
+2026-05-10 01:42:49,187 - INFO -  * Debugger PIN: 354-542-323
+2026-05-10 01:43:03,847 - INFO - 172.19.0.1 - - [10/May/2026 01:43:03] "GET / HTTP/1.1" 200 -
+2026-05-10 01:43:03,968 - INFO - 172.19.0.1 - - [10/May/2026 01:43:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-10 01:43:33,158 - INFO - 172.19.0.1 - - [10/May/2026 01:43:33] "GET / HTTP/1.1" 200 -
+2026-05-10 02:22:54,076 - INFO - 172.19.0.1 - - [10/May/2026 02:22:54] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:22:58,056 - INFO - 172.19.0.1 - - [10/May/2026 02:22:58] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:24:30,562 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:24:30,562 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:24:30,564 - INFO -  * Restarting with stat
+2026-05-10 02:24:30,845 - WARNING -  * Debugger is active!
+2026-05-10 02:24:30,848 - INFO -  * Debugger PIN: 835-223-250
+2026-05-10 02:29:04,426 - INFO - 172.19.0.1 - - [10/May/2026 02:29:04] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:32:23,787 - INFO -  * Detected change in '/app/app.py', reloading
+2026-05-10 02:32:24,010 - INFO -  * Restarting with stat
+2026-05-10 02:33:44,110 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:33:44,110 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:33:44,112 - INFO -  * Restarting with stat
+2026-05-10 02:33:44,379 - WARNING -  * Debugger is active!
+2026-05-10 02:33:44,380 - INFO -  * Debugger PIN: 127-793-599
+2026-05-10 02:34:11,450 - INFO - 172.19.0.1 - - [10/May/2026 02:34:11] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:34:11,529 - INFO - 172.19.0.1 - - [10/May/2026 02:34:11] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:34:14,729 - INFO - 172.19.0.1 - - [10/May/2026 02:34:14] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:34:37,060 - INFO - 172.19.0.1 - - [10/May/2026 02:34:37] "GET / HTTP/1.1" 200 -
+2026-05-10 02:34:58,090 - INFO - 172.19.0.1 - - [10/May/2026 02:34:58] "[31m[1mGET /pedido HTTP/1.1[0m" 405 -
+2026-05-10 02:41:13,420 - INFO - 172.19.0.1 - - [10/May/2026 02:41:13] "[31m[1mGET /pedido HTTP/1.1[0m" 405 -
+2026-05-10 02:41:19,943 - INFO - 172.19.0.1 - - [10/May/2026 02:41:19] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:41:20,096 - INFO - 172.19.0.1 - - [10/May/2026 02:41:20] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:54:30,622 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:54:30,622 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:54:30,623 - INFO -  * Restarting with stat
+2026-05-10 02:54:30,904 - WARNING -  * Debugger is active!
+2026-05-10 02:54:30,907 - INFO -  * Debugger PIN: 955-406-297
+2026-05-10 02:55:11,042 - INFO - 172.19.0.1 - - [10/May/2026 02:55:11] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:55:11,133 - INFO - 172.19.0.1 - - [10/May/2026 02:55:11] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:55:14,353 - INFO - 172.19.0.1 - - [10/May/2026 02:55:14] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 02:58:03,599 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 02:58:03,599 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 02:58:03,600 - INFO -  * Restarting with stat
+2026-05-10 02:58:03,858 - WARNING -  * Debugger is active!
+2026-05-10 02:58:03,859 - INFO -  * Debugger PIN: 329-740-005
+2026-05-10 02:59:25,913 - INFO - 172.19.0.1 - - [10/May/2026 02:59:25] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 02:59:26,018 - INFO - 172.19.0.1 - - [10/May/2026 02:59:26] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 21:05:37,477 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.80.222:5000
+2026-05-09 21:05:37,477 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 21:05:37,477 - INFO -  * Restarting with stat
+2026-05-09 21:05:37,772 - WARNING -  * Debugger is active!
+2026-05-09 21:05:37,772 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 03:33:31,660 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 03:33:31,661 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 03:33:31,662 - INFO -  * Restarting with stat
+2026-05-10 03:33:31,942 - WARNING -  * Debugger is active!
+2026-05-10 03:33:31,944 - INFO -  * Debugger PIN: 136-493-418
+2026-05-09 21:34:30,159 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.80.222:5000
+2026-05-09 21:34:30,159 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-09 21:34:30,161 - INFO -  * Restarting with stat
+2026-05-09 21:34:30,455 - WARNING -  * Debugger is active!
+2026-05-09 21:34:30,460 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 03:34:48,232 - INFO - 172.19.0.1 - - [10/May/2026 03:34:48] "GET / HTTP/1.1" 200 -
+2026-05-10 03:34:48,981 - INFO - 172.19.0.1 - - [10/May/2026 03:34:48] "GET / HTTP/1.1" 200 -
+2026-05-10 03:35:32,469 - INFO - 172.19.0.1 - - [10/May/2026 03:35:32] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 03:35:32,593 - INFO - 172.19.0.1 - - [10/May/2026 03:35:32] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 21:38:57,805 - INFO - 127.0.0.1 - - [09/May/2026 21:38:57] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-09 21:38:58,232 - INFO - package: mysql.connector.plugins
+2026-05-09 21:38:58,232 - INFO - plugin_name: caching_sha2_password
+2026-05-09 21:38:58,232 - INFO - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2026-05-09 21:38:58,300 - INFO - 127.0.0.1 - - [09/May/2026 21:38:58] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 21:58:13,265 - INFO - 127.0.0.1 - - [09/May/2026 21:58:13] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-09 21:58:13,645 - INFO - 127.0.0.1 - - [09/May/2026 21:58:13] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:06:17,615 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:06:17,616 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:06:17,617 - INFO -  * Restarting with stat
+2026-05-10 04:06:17,941 - WARNING -  * Debugger is active!
+2026-05-10 04:06:17,944 - INFO -  * Debugger PIN: 691-780-056
+2026-05-10 04:06:40,600 - INFO - 172.19.0.1 - - [10/May/2026 04:06:40] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:06:40,656 - INFO - 172.19.0.1 - - [10/May/2026 04:06:40] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:06:43,444 - INFO - 172.19.0.1 - - [10/May/2026 04:06:43] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:06:57,283 - INFO - 172.19.0.1 - - [10/May/2026 04:06:57] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:06:57,335 - INFO - 172.19.0.1 - - [10/May/2026 04:06:57] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 22:12:55,903 - INFO -  * Detected change in 'C:\\Users\\gael0\\OneDrive\\Escritorio\\UI web\\logistica-tiempo-real\\db.py', reloading
+2026-05-09 22:12:56,057 - INFO -  * Restarting with stat
+2026-05-09 22:12:56,658 - WARNING -  * Debugger is active!
+2026-05-09 22:12:56,674 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 04:13:38,756 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:13:38,757 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:13:38,758 - INFO -  * Restarting with stat
+2026-05-10 04:13:39,023 - WARNING -  * Debugger is active!
+2026-05-10 04:13:39,026 - INFO -  * Debugger PIN: 898-912-792
+2026-05-10 04:16:50,256 - INFO - 172.19.0.1 - - [10/May/2026 04:16:50] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:16:54,334 - INFO - 172.19.0.1 - - [10/May/2026 04:16:54] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:16:56,698 - INFO - 172.19.0.1 - - [10/May/2026 04:16:56] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:16:59,556 - INFO - 172.19.0.1 - - [10/May/2026 04:16:59] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:17:03,503 - INFO - 172.19.0.1 - - [10/May/2026 04:17:03] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:38:40,064 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:38:40,065 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:38:40,066 - INFO -  * Restarting with stat
+2026-05-10 04:38:40,315 - WARNING -  * Debugger is active!
+2026-05-10 04:38:40,318 - INFO -  * Debugger PIN: 224-172-194
+2026-05-10 04:42:36,835 - INFO - 172.19.0.1 - - [10/May/2026 04:42:36] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:42:40,900 - INFO - 172.19.0.1 - - [10/May/2026 04:42:40] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-09 22:42:53,617 - INFO -  * Detected change in 'C:\\Users\\gael0\\OneDrive\\Escritorio\\UI web\\logistica-tiempo-real\\models\\pedidos.py', reloading
+2026-05-09 22:42:53,763 - INFO -  * Restarting with stat
+2026-05-09 22:42:54,214 - WARNING -  * Debugger is active!
+2026-05-09 22:42:54,214 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 04:42:54,457 - INFO -  * Detected change in '/app/models/pedidos.py', reloading
+2026-05-10 04:42:54,586 - INFO -  * Restarting with stat
+2026-05-10 04:42:55,032 - WARNING -  * Debugger is active!
+2026-05-10 04:42:55,035 - INFO -  * Debugger PIN: 224-172-194
+2026-05-10 04:43:03,161 - INFO - 172.19.0.1 - - [10/May/2026 04:43:03] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:43:07,187 - INFO - 172.19.0.1 - - [10/May/2026 04:43:07] "[35m[1mPOST /pedido HTTP/1.1[0m" 500 -
+2026-05-10 04:45:36,792 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-10 04:45:36,990 - INFO -  * Restarting with stat
+2026-05-10 04:45:37,377 - WARNING -  * Debugger is active!
+2026-05-10 04:45:37,380 - INFO -  * Debugger PIN: 224-172-194
+2026-05-10 04:48:15,779 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 04:48:15,780 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 04:48:15,781 - INFO -  * Restarting with stat
+2026-05-10 04:48:16,070 - WARNING -  * Debugger is active!
+2026-05-10 04:48:16,073 - INFO -  * Debugger PIN: 129-368-258
+2026-05-10 04:49:23,950 - INFO - 172.19.0.1 - - [10/May/2026 04:49:23] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:49:24,106 - INFO - Pedido creado por jp
+2026-05-10 04:49:24,107 - INFO - 172.19.0.1 - - [10/May/2026 04:49:24] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-10 04:51:41,519 - INFO - 172.19.0.1 - - [10/May/2026 04:51:41] "OPTIONS /pedido HTTP/1.1" 200 -
+2026-05-10 04:51:41,632 - INFO - Pedido creado por gael
+2026-05-10 04:51:41,645 - INFO - 172.19.0.1 - - [10/May/2026 04:51:41] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-10 05:23:41,181 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-10 05:23:41,491 - INFO -  * Restarting with stat
+2026-05-10 05:23:42,053 - WARNING -  * Debugger is active!
+2026-05-10 05:23:42,060 - INFO -  * Debugger PIN: 129-368-258
+2026-05-10 17:04:48,060 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-10 17:04:48,061 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 17:04:48,062 - INFO -  * Restarting with stat
+2026-05-10 17:04:48,503 - WARNING -  * Debugger is active!
+2026-05-10 17:04:48,504 - INFO -  * Debugger PIN: 113-632-397
+2026-05-10 17:05:43,270 - INFO - Pedido creado por Isaias
+2026-05-10 17:05:43,271 - INFO - 172.20.0.1 - - [10/May/2026 17:05:43] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-10 17:11:39,568 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-10 17:11:39,600 - INFO -  * Restarting with stat
+2026-05-10 17:11:40,268 - WARNING -  * Debugger is active!
+2026-05-10 17:11:40,269 - INFO -  * Debugger PIN: 113-632-397
+2026-05-10 17:12:22,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-10 17:12:22,834 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 17:12:22,835 - INFO -  * Restarting with stat
+2026-05-10 17:12:23,293 - WARNING -  * Debugger is active!
+2026-05-10 17:12:23,295 - INFO -  * Debugger PIN: 291-622-173
+2026-05-10 17:12:47,032 - INFO - Pedido creado por Ricardo
+2026-05-10 17:12:47,033 - INFO - 172.20.0.1 - - [10/May/2026 17:12:47] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+2026-05-10 20:49:38,225 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 20:49:38,226 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 20:49:38,227 - INFO -  * Restarting with stat
+2026-05-10 20:49:38,466 - WARNING -  * Debugger is active!
+2026-05-10 20:49:38,468 - INFO -  * Debugger PIN: 950-174-029
+2026-05-10 14:50:22,009 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.80.238:5000
+2026-05-10 14:50:22,009 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 14:50:22,009 - INFO -  * Restarting with stat
+2026-05-10 14:50:22,291 - WARNING -  * Debugger is active!
+2026-05-10 14:50:22,291 - INFO -  * Debugger PIN: 822-604-480
+2026-05-10 20:55:19,785 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 20:55:19,786 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 20:55:19,787 - INFO -  * Restarting with stat
+2026-05-10 20:55:20,039 - WARNING -  * Debugger is active!
+2026-05-10 20:55:20,040 - INFO -  * Debugger PIN: 204-442-701
+2026-05-10 20:57:25,033 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 20:57:25,033 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 20:57:25,034 - INFO -  * Restarting with stat
+2026-05-10 20:57:25,271 - WARNING -  * Debugger is active!
+2026-05-10 20:57:25,272 - INFO -  * Debugger PIN: 102-596-015
+2026-05-10 21:50:42,534 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-10 21:50:42,888 - INFO -  * Restarting with stat
+2026-05-10 21:50:44,797 - WARNING -  * Debugger is active!
+2026-05-10 21:50:44,801 - INFO -  * Debugger PIN: 102-596-015
+2026-05-10 21:54:10,895 - INFO -  * Detected change in '/app/routes/api.py', reloading
+2026-05-10 21:54:10,982 - INFO -  * Restarting with stat
+2026-05-10 21:54:11,392 - WARNING -  * Debugger is active!
+2026-05-10 21:54:11,392 - INFO -  * Debugger PIN: 102-596-015
+2026-05-10 22:10:00,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 22:10:00,662 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 22:10:00,663 - INFO -  * Restarting with stat
+2026-05-10 22:10:00,975 - WARNING -  * Debugger is active!
+2026-05-10 22:10:00,976 - INFO -  * Debugger PIN: 104-379-676
+2026-05-10 22:10:31,801 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:10:31,805 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:10:31,806 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:10:31,809 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:10:31,813 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:10:31,839 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:10:31,846 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:10:31,848 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:10:31,854 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:10:31,858 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:10:31,859 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:10:31,873 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:10:31,899 - INFO - 172.19.0.1 - - [10/May/2026 22:10:31] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:12:45,177 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:45,180 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:45,181 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:12:45,184 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:12:45,185 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:12:45,201 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:12:45,213 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:45,219 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:45,222 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:12:45,224 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:12:45,228 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:12:45,238 - INFO - 172.19.0.1 - - [10/May/2026 22:12:45] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:12:53,718 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:12:53,719 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:53,720 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:12:53,731 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:12:53,734 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:12:53,739 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:53,757 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:12:53,763 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:53,764 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:12:53,772 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:12:53,776 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:12:53,778 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:12:53,810 - INFO - 172.19.0.1 - - [10/May/2026 22:12:53] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:13:58,455 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:13:58,457 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:13:58,462 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:13:58,465 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:13:58,466 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:13:58,479 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:13:58,503 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:13:58,505 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:13:58,510 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:13:58,511 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:13:58,516 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:13:58,523 - INFO - 172.19.0.1 - - [10/May/2026 22:13:58] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:14:03,121 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:14:03,126 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:14:03,234 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:03,238 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:14:03,239 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:03,243 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:14:03,244 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:14:03,271 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:14:03,283 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:03,288 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:14:03,289 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:03,304 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:14:03,326 - INFO - 172.19.0.1 - - [10/May/2026 22:14:03] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:14:05,040 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:14:05,047 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:14:05,051 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:05,061 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:05,073 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:14:05,085 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:14:05,089 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:14:05,101 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:14:05,111 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:05,115 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:14:05,119 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:14:05,138 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:14:05,182 - INFO - 172.19.0.1 - - [10/May/2026 22:14:05] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:14:39,907 - INFO - 172.19.0.1 - - [10/May/2026 22:14:39] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:14:48,096 - INFO - 172.19.0.1 - - [10/May/2026 22:14:48] "GET /productos?search=&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:14:53,290 - INFO - 172.19.0.1 - - [10/May/2026 22:14:53] "GET /productos?search=&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:14:54,389 - INFO - 172.19.0.1 - - [10/May/2026 22:14:54] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:14:55,738 - INFO - 172.19.0.1 - - [10/May/2026 22:14:55] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:15:01,947 - INFO - 172.19.0.1 - - [10/May/2026 22:15:01] "GET /productos?search=audifonos&categoria= HTTP/1.1" 200 -
+2026-05-10 22:15:03,101 - INFO - 172.19.0.1 - - [10/May/2026 22:15:03] "GET /productos?search=audifonos&categoria= HTTP/1.1" 200 -
+2026-05-10 22:15:10,003 - INFO - 172.19.0.1 - - [10/May/2026 22:15:10] "GET /productos?search=ropa&categoria= HTTP/1.1" 200 -
+2026-05-10 22:15:10,854 - INFO - 172.19.0.1 - - [10/May/2026 22:15:10] "GET /productos?search=ropa&categoria= HTTP/1.1" 200 -
+2026-05-10 22:15:17,385 - INFO - 172.19.0.1 - - [10/May/2026 22:15:17] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:23:33,292 - INFO - 172.19.0.1 - - [10/May/2026 22:23:33] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:23:38,785 - INFO - 172.19.0.1 - - [10/May/2026 22:23:38] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:23:40,362 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "OPTIONS /vendedores HTTP/1.1" 200 -
+2026-05-10 22:23:40,432 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "[35m[1mPOST /vendedores HTTP/1.1[0m" 201 -
+2026-05-10 22:23:40,474 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "GET /productos?vendedor_id=2 HTTP/1.1" 200 -
+2026-05-10 22:23:40,489 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:23:40,496 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:23:40,511 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "GET /carrito?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:23:40,517 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "GET /direcciones?usuario_id=1 HTTP/1.1" 200 -
+2026-05-10 22:23:40,519 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 22:23:40,546 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "[35m[1mGET /pedidos?usuario_id=1 HTTP/1.1[0m" 500 -
+2026-05-10 22:23:40,562 - INFO - 172.19.0.1 - - [10/May/2026 22:23:40] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 22:28:21,287 - INFO - 172.19.0.1 - - [10/May/2026 22:28:21] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:28:21,288 - INFO - 172.19.0.1 - - [10/May/2026 22:28:21] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:28:21,289 - INFO - 172.19.0.1 - - [10/May/2026 22:28:21] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 22:49:05,940 - INFO - 172.19.0.1 - - [10/May/2026 22:49:05] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:49:05,941 - INFO - 172.19.0.1 - - [10/May/2026 22:49:05] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:49:05,969 - INFO - 172.19.0.1 - - [10/May/2026 22:49:05] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:49:05,972 - INFO - 172.19.0.1 - - [10/May/2026 22:49:05] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:49:11,193 - INFO - 172.19.0.1 - - [10/May/2026 22:49:11] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:49:11,189 - INFO - 172.19.0.1 - - [10/May/2026 22:49:11] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:49:11,225 - INFO - 172.19.0.1 - - [10/May/2026 22:49:11] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 22:49:11,236 - INFO - 172.19.0.1 - - [10/May/2026 22:49:11] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:49:11,239 - INFO - 172.19.0.1 - - [10/May/2026 22:49:11] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:49:11,256 - INFO - 172.19.0.1 - - [10/May/2026 22:49:11] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 22:49:13,787 - INFO - 172.19.0.1 - - [10/May/2026 22:49:13] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:49:13,796 - INFO - 172.19.0.1 - - [10/May/2026 22:49:13] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:49:13,802 - INFO - 172.19.0.1 - - [10/May/2026 22:49:13] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 22:49:13,812 - INFO - 172.19.0.1 - - [10/May/2026 22:49:13] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 22:49:13,827 - INFO - 172.19.0.1 - - [10/May/2026 22:49:13] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 22:49:13,831 - INFO - 172.19.0.1 - - [10/May/2026 22:49:13] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 22:49:25,154 - INFO - 172.19.0.1 - - [10/May/2026 22:49:25] "GET /productos?search=&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:50:14,965 - INFO - 172.19.0.1 - - [10/May/2026 22:50:14] "OPTIONS /usuarios/login HTTP/1.1" 200 -
+2026-05-10 22:50:14,998 - INFO - 172.19.0.1 - - [10/May/2026 22:50:14] "[31m[1mPOST /usuarios/login HTTP/1.1[0m" 401 -
+2026-05-10 22:50:16,112 - INFO - 172.19.0.1 - - [10/May/2026 22:50:16] "[31m[1mPOST /usuarios/login HTTP/1.1[0m" 401 -
+2026-05-10 22:50:16,278 - INFO - 172.19.0.1 - - [10/May/2026 22:50:16] "[31m[1mPOST /usuarios/login HTTP/1.1[0m" 401 -
+2026-05-10 22:50:20,909 - INFO - 172.19.0.1 - - [10/May/2026 22:50:20] "GET /productos?search=&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:16,589 - INFO - 172.19.0.1 - - [10/May/2026 22:51:16] "GET /productos?search=laptops&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:17,910 - INFO - 172.19.0.1 - - [10/May/2026 22:51:17] "GET /productos?search=laptops&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:27,739 - INFO - 172.19.0.1 - - [10/May/2026 22:51:27] "GET /productos?search=clulares&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:28,782 - INFO - 172.19.0.1 - - [10/May/2026 22:51:28] "GET /productos?search=clulares&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:29,517 - INFO - 172.19.0.1 - - [10/May/2026 22:51:29] "GET /productos?search=clulares&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:30,330 - INFO - 172.19.0.1 - - [10/May/2026 22:51:30] "GET /productos?search=clulares&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:30,501 - INFO - 172.19.0.1 - - [10/May/2026 22:51:30] "GET /productos?search=clulares&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:30,683 - INFO - 172.19.0.1 - - [10/May/2026 22:51:30] "GET /productos?search=clulares&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 22:51:31,969 - INFO - 172.19.0.1 - - [10/May/2026 22:51:31] "GET /productos?search=clulares&categoria= HTTP/1.1" 200 -
+2026-05-10 22:51:35,049 - INFO - 172.19.0.1 - - [10/May/2026 22:51:35] "GET /productos?search=clulares&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:05,128 - INFO - 172.19.0.1 - - [10/May/2026 23:02:05] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:05,129 - INFO - 172.19.0.1 - - [10/May/2026 23:02:05] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:02:05,161 - INFO - 172.19.0.1 - - [10/May/2026 23:02:05] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:05,164 - INFO - 172.19.0.1 - - [10/May/2026 23:02:05] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:02:09,423 - INFO - 172.19.0.1 - - [10/May/2026 23:02:09] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:09,426 - INFO - 172.19.0.1 - - [10/May/2026 23:02:09] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:02:09,468 - INFO - 172.19.0.1 - - [10/May/2026 23:02:09] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:02:09,493 - INFO - 172.19.0.1 - - [10/May/2026 23:02:09] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:02:09,503 - INFO - 172.19.0.1 - - [10/May/2026 23:02:09] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:02:09,517 - INFO - 172.19.0.1 - - [10/May/2026 23:02:09] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:10,670 - INFO - 172.19.0.1 - - [10/May/2026 23:02:10] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:02:10,672 - INFO - 172.19.0.1 - - [10/May/2026 23:02:10] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:10,676 - INFO - 172.19.0.1 - - [10/May/2026 23:02:10] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:02:10,711 - INFO - 172.19.0.1 - - [10/May/2026 23:02:10] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:02:10,713 - INFO - 172.19.0.1 - - [10/May/2026 23:02:10] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:10,749 - INFO - 172.19.0.1 - - [10/May/2026 23:02:10] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:02:11,051 - INFO - 172.19.0.1 - - [10/May/2026 23:02:11] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:11,063 - INFO - 172.19.0.1 - - [10/May/2026 23:02:11] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:02:11,066 - INFO - 172.19.0.1 - - [10/May/2026 23:02:11] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:02:11,079 - INFO - 172.19.0.1 - - [10/May/2026 23:02:11] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:02:11,088 - INFO - 172.19.0.1 - - [10/May/2026 23:02:11] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:02:11,090 - INFO - 172.19.0.1 - - [10/May/2026 23:02:11] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:23:36,294 - INFO - 172.19.0.1 - - [10/May/2026 23:23:36] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:23:36,292 - INFO - 172.19.0.1 - - [10/May/2026 23:23:36] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:23:36,327 - INFO - 172.19.0.1 - - [10/May/2026 23:23:36] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:23:36,328 - INFO - 172.19.0.1 - - [10/May/2026 23:23:36] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:23:42,376 - INFO - 172.19.0.1 - - [10/May/2026 23:23:42] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:23:42,377 - INFO - 172.19.0.1 - - [10/May/2026 23:23:42] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:23:42,421 - INFO - 172.19.0.1 - - [10/May/2026 23:23:42] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:23:42,432 - INFO - 172.19.0.1 - - [10/May/2026 23:23:42] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:23:42,451 - INFO - 172.19.0.1 - - [10/May/2026 23:23:42] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:23:42,470 - INFO - 172.19.0.1 - - [10/May/2026 23:23:42] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:32:10,730 - INFO - 172.19.0.1 - - [10/May/2026 23:32:10] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:32:10,732 - INFO - 172.19.0.1 - - [10/May/2026 23:32:10] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:32:10,733 - INFO - 172.19.0.1 - - [10/May/2026 23:32:10] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:32:10,760 - INFO - 172.19.0.1 - - [10/May/2026 23:32:10] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:32:10,763 - INFO - 172.19.0.1 - - [10/May/2026 23:32:10] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:32:10,770 - INFO - 172.19.0.1 - - [10/May/2026 23:32:10] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:35:17,059 - INFO - 172.19.0.1 - - [10/May/2026 23:35:17] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:35:17,065 - INFO - 172.19.0.1 - - [10/May/2026 23:35:17] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:35:17,066 - INFO - 172.19.0.1 - - [10/May/2026 23:35:17] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:35:17,094 - INFO - 172.19.0.1 - - [10/May/2026 23:35:17] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-10 23:35:17,094 - INFO - 172.19.0.1 - - [10/May/2026 23:35:17] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-10 23:35:17,095 - INFO - 172.19.0.1 - - [10/May/2026 23:35:17] "GET /ofertas HTTP/1.1" 200 -
+2026-05-10 23:35:33,856 - INFO - 172.19.0.1 - - [10/May/2026 23:35:33] "GET /productos?search=&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-10 23:49:55,796 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-10 23:49:55,797 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-10 23:49:55,799 - INFO -  * Restarting with stat
+2026-05-10 23:49:56,227 - WARNING -  * Debugger is active!
+2026-05-10 23:49:56,229 - INFO -  * Debugger PIN: 109-421-271
+2026-05-11 03:21:40,049 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-11 03:21:40,049 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-11 03:21:40,051 - INFO -  * Restarting with stat
+2026-05-11 03:21:40,398 - WARNING -  * Debugger is active!
+2026-05-11 03:21:40,400 - INFO -  * Debugger PIN: 141-598-142
+2026-05-11 03:22:06,069 - INFO - 172.19.0.1 - - [11/May/2026 03:22:06] "GET /ofertas HTTP/1.1" 200 -
+2026-05-11 03:22:06,071 - INFO - 172.19.0.1 - - [11/May/2026 03:22:06] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:22:06,073 - INFO - 172.19.0.1 - - [11/May/2026 03:22:06] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-11 03:22:06,115 - INFO - 172.19.0.1 - - [11/May/2026 03:22:06] "GET /ofertas HTTP/1.1" 200 -
+2026-05-11 03:22:06,122 - INFO - 172.19.0.1 - - [11/May/2026 03:22:06] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:22:06,123 - INFO - 172.19.0.1 - - [11/May/2026 03:22:06] "GET /productos?vendedor_id=4 HTTP/1.1" 200 -
+2026-05-11 03:23:16,079 - INFO - 172.19.0.1 - - [11/May/2026 03:23:16] "GET /productos?search=&categoria=Hogar HTTP/1.1" 200 -
+2026-05-11 03:23:20,188 - INFO - 172.19.0.1 - - [11/May/2026 03:23:20] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:23:21,063 - INFO - 172.19.0.1 - - [11/May/2026 03:23:21] "GET /productos?search=&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-11 03:23:22,981 - INFO - 172.19.0.1 - - [11/May/2026 03:23:22] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:23:25,878 - INFO - 172.19.0.1 - - [11/May/2026 03:23:25] "GET /productos?search=&categoria=Moda HTTP/1.1" 200 -
+2026-05-11 03:23:27,628 - INFO - 172.19.0.1 - - [11/May/2026 03:23:27] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:23:33,911 - INFO - 172.19.0.1 - - [11/May/2026 03:23:33] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:26:16,859 - INFO -  * Detected change in '/app/db.py', reloading
+2026-05-11 03:26:17,111 - INFO -  * Restarting with stat
+2026-05-11 03:42:40,244 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.19.0.3:5000
+2026-05-11 03:42:40,244 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-11 03:42:40,246 - INFO -  * Restarting with stat
+2026-05-11 03:42:40,646 - WARNING -  * Debugger is active!
+2026-05-11 03:42:40,649 - INFO -  * Debugger PIN: 657-789-314
+2026-05-11 03:43:09,310 - INFO - 172.19.0.1 - - [11/May/2026 03:43:09] "[31m[1mGET /usuarios/sesion HTTP/1.1[0m" 401 -
+2026-05-11 03:43:09,323 - INFO - 172.19.0.1 - - [11/May/2026 03:43:09] "[31m[1mGET /usuarios/sesion HTTP/1.1[0m" 401 -
+2026-05-11 03:43:09,345 - INFO - 172.19.0.1 - - [11/May/2026 03:43:09] "GET /ofertas HTTP/1.1" 200 -
+2026-05-11 03:43:09,350 - INFO - 172.19.0.1 - - [11/May/2026 03:43:09] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:43:09,386 - INFO - 172.19.0.1 - - [11/May/2026 03:43:09] "GET /ofertas HTTP/1.1" 200 -
+2026-05-11 03:43:09,393 - INFO - 172.19.0.1 - - [11/May/2026 03:43:09] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:43:31,431 - INFO - 172.19.0.1 - - [11/May/2026 03:43:31] "[31m[1mGET /usuarios/sesion HTTP/1.1[0m" 401 -
+2026-05-11 03:43:31,443 - INFO - 172.19.0.1 - - [11/May/2026 03:43:31] "[31m[1mGET /usuarios/sesion HTTP/1.1[0m" 401 -
+2026-05-11 03:43:31,466 - INFO - 172.19.0.1 - - [11/May/2026 03:43:31] "GET /ofertas HTTP/1.1" 200 -
+2026-05-11 03:43:31,468 - INFO - 172.19.0.1 - - [11/May/2026 03:43:31] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:43:31,492 - INFO - 172.19.0.1 - - [11/May/2026 03:43:31] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:43:31,493 - INFO - 172.19.0.1 - - [11/May/2026 03:43:31] "GET /ofertas HTTP/1.1" 200 -
+2026-05-11 03:43:45,010 - INFO - 172.19.0.1 - - [11/May/2026 03:43:45] "GET /productos?search=&categoria=Tecnología HTTP/1.1" 200 -
+2026-05-11 03:43:46,270 - INFO - 172.19.0.1 - - [11/May/2026 03:43:46] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:43:51,116 - INFO - 172.19.0.1 - - [11/May/2026 03:43:51] "GET /productos?search=&categoria=Moda HTTP/1.1" 200 -
+2026-05-11 03:44:01,033 - INFO - 172.19.0.1 - - [11/May/2026 03:44:01] "GET /productos?search=&categoria=Moda HTTP/1.1" 200 -
+2026-05-11 03:45:15,069 - INFO - 172.19.0.1 - - [11/May/2026 03:45:15] "[31m[1mGET /usuarios/sesion HTTP/1.1[0m" 401 -
+2026-05-11 03:45:15,095 - INFO - 172.19.0.1 - - [11/May/2026 03:45:15] "GET /ofertas HTTP/1.1" 200 -
+2026-05-11 03:45:15,096 - INFO - 172.19.0.1 - - [11/May/2026 03:45:15] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 03:48:35,433 - INFO - 172.19.0.1 - - [11/May/2026 03:48:35] "GET /productos?search=Laptop+gamer&categoria= HTTP/1.1" 200 -
+2026-05-11 04:04:00,015 - INFO - 172.19.0.1 - - [11/May/2026 04:04:00] "GET /productos?search=&categoria= HTTP/1.1" 200 -
+2026-05-11 04:10:12,773 - INFO -  * Detected change in '/app/routes/api.py', reloading
+2026-05-11 04:10:13,010 - INFO -  * Restarting with stat
+2026-05-11 04:10:13,781 - WARNING -  * Debugger is active!
+2026-05-11 04:10:13,784 - INFO -  * Debugger PIN: 657-789-314
