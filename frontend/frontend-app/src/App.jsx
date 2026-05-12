@@ -504,46 +504,32 @@ function App() {
 
   return (
     <div className={`marketplace-shell ${theme === "light" ? "theme-light" : "theme-dark"}`}>
-      <header className="topbar">
-        <div className="topbar-brand">
-          <div className="brand-mark">
-            <span className="brand-icon">⚡</span>
-            <div>
-              <p className="brand-kicker">TurboMercado</p>
-              <h1>TurboMercado</h1>
+      <header className="header-container">
+        <div className="header-level1">
+          <div className="header-logo">
+            <div className="brand-mark">
+              <span className="brand-icon">⚡</span>
+              <div>
+                <p className="brand-kicker">TurboMercado</p>
+                <h1>TurboMercado</h1>
+              </div>
             </div>
           </div>
-          <span className="brand-slogan">Compra rápido, recibe seguro</span>
-        </div>
-
-        <div className="topbar-search">
-          <label className="search-box" htmlFor="search-marketplace">
-            <span className="search-icon">⌕</span>
-            <input
-              id="search-marketplace"
-              type="search"
-              value={searchQuery}
-              onChange={(event) => setSearchQuery(event.target.value)}
-              onKeyDown={(event) => event.key === "Enter" && handleSearch()}
-              placeholder="Buscar productos, categorías, vendedores u ofertas"
-            />
-            <button type="button" onClick={handleSearch}>Buscar</button>
-          </label>
-        </div>
-
-        <div className="topbar-actions">
-          <button className="location-toggle" type="button" onClick={() => setShowLocationModal(true)}>
-            <span>📍</span>
-            <div>
-              <strong>{location.ciudad}, {location.estado}</strong>
-              <small>{location.detalle}</small>
-            </div>
-          </button>
-
-          <div className="action-pill-group">
-            <button className="header-pill" type="button" onClick={openOrders}>📦 Mis pedidos</button>
-            <button className="header-pill" type="button" onClick={openCart}>🛒 Carrito</button>
-            <button className="header-pill primary" type="button" onClick={handleSellClick}>💼 Vender</button>
+          <div className="header-search">
+            <label className="search-box" htmlFor="search-marketplace">
+              <span className="search-icon">⌕</span>
+              <input
+                id="search-marketplace"
+                type="search"
+                value={searchQuery}
+                onChange={(event) => setSearchQuery(event.target.value)}
+                onKeyDown={(event) => event.key === "Enter" && handleSearch()}
+                placeholder="Buscar productos, categorías, vendedores u ofertas"
+              />
+              <button type="button" onClick={handleSearch}>Buscar</button>
+            </label>
+          </div>
+          <div className="header-buttons">
             {!loggedIn ? (
               <>
                 <button className="header-pill" type="button" onClick={() => openAuthModal("login", "Inicia sesión para continuar")}>Iniciar sesión</button>
@@ -552,7 +538,22 @@ function App() {
             ) : (
               <button className="header-pill" type="button" onClick={handleLogout}>Cerrar sesión</button>
             )}
+            <button className="header-pill" type="button" onClick={openCart}>🛒 Carrito</button>
             <button className="theme-button" type="button" onClick={handleThemeToggle}>{theme === "dark" ? "Modo claro" : "Modo oscuro"}</button>
+          </div>
+        </div>
+        <div className="header-level2">
+          <button className="location-toggle" type="button" onClick={() => setShowLocationModal(true)}>
+            <span>📍</span>
+            <div>
+              <strong>{location.ciudad}, {location.estado}</strong>
+              <small>{location.detalle}</small>
+            </div>
+          </button>
+          <div className="nav-buttons">
+            <button className="header-pill" type="button">Todo</button>
+            <button className="header-pill" type="button" onClick={openOrders}>Mis pedidos</button>
+            <button className="header-pill primary" type="button" onClick={handleSellClick}>Vender</button>
           </div>
         </div>
       </header>
@@ -939,280 +940,26 @@ function App() {
       </nav>
 
       <main className="page-content">
-        <section className="hero-banner">
-          <div className="hero-copy">
-            <span className="hero-tag">Marketplace Real</span>
-            <h2>Miles de productos cargados desde MySQL y listos para comprar</h2>
-            <p>Busca por producto, categoría, vendedor y descubre ofertas reales conectadas a tu base de datos.</p>
-            <div className="hero-actions">
-              <button type="button" className="cta-button" onClick={() => openAuthModal("login", "Inicia sesión para comprar")}>Comprar ahora</button>
-              <button type="button" className="secondary-button" onClick={handleSellClick}>Vender en TurboMercado</button>
-            </div>
-            <div className="hero-flags">
-              <span>Autenticación segura</span>
-              <span>Sesión persistente</span>
-              <span>Productos reales en MySQL</span>
-            </div>
-            <div className="hero-status">
-              <span>{loggedIn ? `Bienvenido ${user?.nombre}` : "Inicia sesión para activar funciones"}</span>
-            </div>
-          </div>
-          <div className="hero-panels">
-            <article className="hero-stat glass-card">
-              <span>🔥 Buscador real</span>
-              <strong>Productos, categorías y vendedores</strong>
-              <small>Consulta directo desde el servidor</small>
-            </article>
-            <article className="hero-highlight glass-card">
-              <div>
-                <span>💡 Vender con tu cuenta</span>
-                <strong>{user?.esVendedor ? "Tu tienda está activa" : "Activa tu tienda ahora"}</strong>
-              </div>
-              <div className="hero-badge">Dirección: {location.ciudad}</div>
-            </article>
-          </div>
-        </section>
-
-        <section className="info-strip">
-          <div><strong>Dirección actual:</strong> {location.ciudad}, {location.estado}, {location.pais}</div>
-          <div><strong>Cuenta:</strong> {loggedIn ? user?.email : "Invitado"}</div>
-          <div><strong>Estado:</strong> {searchResults ? `Resultados de "${searchQuery}"` : "Navega por secciones"}</div>
-        </section>
-
         {actionMessage && <div className="save-message">{actionMessage}</div>}
         {saveMessage && <div className="save-message">{saveMessage}</div>}
 
-        {searchResults ? (
-          <section className="collection-block">
-            <div className="collection-head">
-              <div>
-                <span className="section-label">Resultados</span>
-                <h3>{searchResults.length} productos encontrados</h3>
-              </div>
-              <button type="button" className="text-link" onClick={() => { setSearchResults(null); setSearchQuery(""); }}>
-                Limpiar búsqueda
-              </button>
-            </div>
-            <div className="search-data">
-              {searchCategories.length > 0 && (
-                <div><strong>Categorías:</strong> {searchCategories.join(', ')}</div>
-              )}
-              {searchVendors.length > 0 && (
-                <div><strong>Vendedores:</strong> {searchVendors.join(', ')}</div>
-              )}
-            </div>
-            <div className="product-grid">
-              {searchResults.map((product) => (
-                <article key={product.id} className="product-card glass-card">
-                  <div className="product-image"><img src={product.imagen} alt={product.nombre} /></div>
-                  <div className="product-body">
-                    <div className="product-topline">
-                      <span className="product-badge status">{product.estado}</span>
-                      <span className="product-badge stock">{buildStockLabel(product)}</span>
-                    </div>
-                    <h4>{product.nombre}</h4>
-                    <p className="seller-name">Vendedor: {product.tienda}</p>
-                    <div className="product-meta">
-                      <span>⭐ {product.calificacion}</span>
-                      <span>{product.categoria}</span>
-                      <span>{product.envio}</span>
-                    </div>
-                    <div className="product-footer">
-                      <div>
-                        <div className="product-price">${product.precio}</div>
-                        <div className="product-discount">{product.descuento ? `${product.descuento}% OFF` : "Precio normal"}</div>
-                      </div>
-                      <div className="product-actions">
-                        <button className="mini-button" type="button" onClick={() => addToCart(product)}>Agregar</button>
-                        <button className="mini-button strong" type="button" onClick={() => addToCart(product)}>Comprar</button>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              ))}
-            </div>
-          </section>
-        ) : (
-          <>
-            {featuredProducts.length > 0 && (
-              <section className="collection-block">
-                <div className="collection-head">
-                  <div>
-                    <span className="section-label">Destacados</span>
-                    <h3>Los productos mejor posicionados</h3>
-                  </div>
-                  <button type="button" className="text-link" onClick={() => { setSearchQuery('destacado'); handleSearch(); }}>Ver todo</button>
+        <section className="product-suggestions">
+          <h2>Sugerencias de Productos</h2>
+          <div className="product-grid">
+            {products.slice(0, 12).map((product) => (
+              <article key={product.id} className="product-card glass-card">
+                <div className="product-image"><img src={product.imagen} alt={product.nombre} /></div>
+                <div className="product-body">
+                  <h4>{product.nombre}</h4>
+                  <p className="seller-name">{product.tienda}</p>
+                  <div className="product-price">${product.precio}</div>
+                  <div className="product-discount">{product.descuento ? `${product.descuento}% OFF` : ""}</div>
+                  <button className="mini-button" type="button" onClick={() => addToCart(product)}>Agregar al carrito</button>
                 </div>
-                <div className="product-grid">
-                  {featuredProducts.map((product) => (
-                    <article key={product.id} className="product-card glass-card">
-                      <div className="product-image"><img src={product.imagen} alt={product.nombre} /></div>
-                      <div className="product-body">
-                        <div className="product-topline">
-                          <span className="product-badge status">{product.estado}</span>
-                          <span className="product-badge stock">{buildStockLabel(product)}</span>
-                        </div>
-                        <h4>{product.nombre}</h4>
-                        <p className="seller-name">{product.tienda}</p>
-                        <div className="product-meta">
-                          <span>⭐ {product.calificacion}</span>
-                          <span>{product.categoria}</span>
-                        </div>
-                        <div className="product-footer">
-                          <div>
-                            <div className="product-price">${product.precio}</div>
-                            <div className="product-discount">{product.descuento ? `${product.descuento}% OFF` : "Sin descuento"}</div>
-                          </div>
-                          <div className="product-actions">
-                            <button className="mini-button" type="button" onClick={() => addToCart(product)}>Agregar</button>
-                            <button className="mini-button strong" type="button" onClick={() => addToCart(product)}>Comprar</button>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {offers.length > 0 && (
-              <section className="collection-block">
-                <div className="collection-head">
-                  <div>
-                    <span className="section-label">Ofertas</span>
-                    <h3>Promociones destacadas</h3>
-                  </div>
-                  <button type="button" className="text-link" onClick={() => { setSearchQuery('oferta'); handleSearch(); }}>Ver ofertas</button>
-                </div>
-                <div className="product-grid">
-                  {offers.map((product) => (
-                    <article key={product.id} className="product-card glass-card">
-                      <div className="product-image"><img src={product.imagen} alt={product.nombre} /></div>
-                      <div className="product-body">
-                        <div className="product-topline">
-                          <span className="product-badge status">{product.estado}</span>
-                          <span className="product-badge stock">{buildStockLabel(product)}</span>
-                        </div>
-                        <h4>{product.nombre}</h4>
-                        <p className="seller-name">{product.tienda}</p>
-                        <div className="product-meta">
-                          <span>⭐ {product.calificacion}</span>
-                          <span>{product.categoria}</span>
-                          <span>{product.envio}</span>
-                        </div>
-                        <div className="product-footer">
-                          <div>
-                            <div className="product-price">${product.precio}</div>
-                            <div className="product-discount">{product.descuento ? `${product.descuento}% OFF` : "Sin descuento"}</div>
-                          </div>
-                          <div className="product-actions">
-                            <button className="mini-button" type="button" onClick={() => addToCart(product)}>Agregar</button>
-                            <button className="mini-button strong" type="button" onClick={() => addToCart(product)}>Comprar</button>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {bestSelling.length > 0 && (
-              <section className="collection-block">
-                <div className="collection-head">
-                  <div>
-                    <span className="section-label">Más vendidos</span>
-                    <h3>Lo más pedido</h3>
-                  </div>
-                  <button type="button" className="text-link" onClick={() => { setSearchQuery('más vendidos'); handleSearch(); }}>Ver más</button>
-                </div>
-                <div className="product-grid">
-                  {bestSelling.map((product) => (
-                    <article key={product.id} className="product-card glass-card">
-                      <div className="product-image"><img src={product.imagen} alt={product.nombre} /></div>
-                      <div className="product-body">
-                        <div className="product-topline">
-                          <span className="product-badge status">{product.estado}</span>
-                          <span className="product-badge stock">{buildStockLabel(product)}</span>
-                        </div>
-                        <h4>{product.nombre}</h4>
-                        <p className="seller-name">{product.tienda}</p>
-                        <div className="product-meta">
-                          <span>⭐ {product.calificacion}</span>
-                          <span>{product.categoria}</span>
-                          <span>{product.envio}</span>
-                        </div>
-                        <div className="product-footer">
-                          <div>
-                            <div className="product-price">${product.precio}</div>
-                            <div className="product-discount">{product.descuento ? `${product.descuento}% OFF` : "Precio normal"}</div>
-                          </div>
-                          <div className="product-actions">
-                            <button className="mini-button" type="button" onClick={() => addToCart(product)}>Agregar</button>
-                            <button className="mini-button strong" type="button" onClick={() => addToCart(product)}>Comprar</button>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                  ))}
-                </div>
-              </section>
-            )}
-
-            {(lowStock.length > 0 || soldOut.length > 0 || newProducts.length > 0) && (
-              <section className="collection-block">
-                <div className="collection-head">
-                  <div>
-                    <span className="section-label">Stock y novedades</span>
-                    <h3>Alertas de disponibilidad</h3>
-                  </div>
-                </div>
-                <div className="info-grid">
-                  {lowStock.length > 0 && (
-                    <div className="mini-panel">
-                      <strong>Últimas piezas</strong>
-                      <p>{lowStock.length} productos con stock bajo.</p>
-                    </div>
-                  )}
-                  {soldOut.length > 0 && (
-                    <div className="mini-panel">
-                      <strong>Agotados</strong>
-                      <p>{soldOut.length} productos en espera de reposición.</p>
-                    </div>
-                  )}
-                  {newProducts.length > 0 && (
-                    <div className="mini-panel">
-                      <strong>Nuevos</strong>
-                      <p>{newProducts.length} productos recién añadidos.</p>
-                    </div>
-                  )}
-                </div>
-              </section>
-            )}
-
-            {categoryCards.length > 0 && (
-              <section className="collection-block">
-                <div className="collection-head">
-                  <div>
-                    <span className="section-label">Por categoría</span>
-                    <h3>Encuentra por sección popular</h3>
-                  </div>
-                </div>
-                <div className="category-grid">
-                  {categoryCards.map((categoria) => (
-                    <article key={categoria.id} className="category-card glass-card">
-                      <h4>{categoria.nombre}</h4>
-                      <p>Ver ofertas y productos en esta categoría.</p>
-                      <button type="button" className="mini-button strong" onClick={() => { setSearchQuery(categoria.nombre); handleSearch(); }}>
-                        Explorar
-                      </button>
-                    </article>
-                  ))}
-                </div>
-              </section>
-            )}
-          </>
-        )}
+              </article>
+            ))}
+          </div>
+        </section>
       </main>
     </div>
   );

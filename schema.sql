@@ -166,7 +166,7 @@ INSERT IGNORE INTO vendedores (usuario_id, tienda, rating) VALUES
 INSERT IGNORE INTO direcciones (usuario_id, pais, estado, ciudad, detalle, principal) VALUES
   (2, 'México', 'Nuevo León', 'Monterrey', 'Av. Insurgentes 1450, Col. Centro', TRUE);
 
-INSERT IGNORE INTO productos (vendedor_id, categoria_id, nombre, descripcion, precio, descuento, stock, envio, estado, destacado, vendido)
+INSERT IGNORE INTO productos (vendedor_id, categoria_id, nombre, descripcion, precio, descuento, stock, envio, estado, destacado, vendido) VALUES
   (1, 1, 'Smartphone Nova X', 'Pantalla AMOLED 6.7", 256GB, 5G, cámara triple', 8999.00, 20, 12, 'Envío express 24h', 'Nuevo', TRUE, 118),
   (1, 2, 'Consola Pulse One', 'Incluye control inalámbrico y 2 juegos descargables', 11999.00, 15, 7, 'Entrega en 48h', 'Nuevo', TRUE, 94),
   (1, 3, 'Tenis Urban Runner', 'Diseño deportivo con amortiguación adaptativa', 1599.00, 25, 3, 'Envío estándar', 'Nuevo', FALSE, 60),

@@ -1,0 +1,39 @@
+2026-05-12 16:17:22,043 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.5.58:5000
+2026-05-12 16:17:22,043 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 16:17:22,045 - INFO -  * Restarting with stat
+2026-05-12 16:17:22,383 - WARNING -  * Debugger is active!
+2026-05-12 16:17:22,398 - INFO -  * Debugger PIN: 146-191-866
+2026-05-12 16:17:55,407 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\routes\\usuarios.py', reloading
+2026-05-12 16:17:55,444 - INFO -  * Restarting with stat
+2026-05-12 16:17:55,784 - WARNING -  * Debugger is active!
+2026-05-12 16:17:55,798 - INFO -  * Debugger PIN: 146-191-866
+2026-05-12 16:20:28,354 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.5.58:5000
+2026-05-12 16:20:28,355 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 16:20:28,358 - INFO -  * Restarting with stat
+2026-05-12 16:20:28,769 - WARNING -  * Debugger is active!
+2026-05-12 16:20:28,782 - INFO -  * Debugger PIN: 146-191-866
+2026-05-12 16:20:44,346 - INFO - 127.0.0.1 - - [12/May/2026 16:20:44] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-12 16:20:44,347 - INFO - 127.0.0.1 - - [12/May/2026 16:20:44] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-12 16:20:44,349 - INFO - 127.0.0.1 - - [12/May/2026 16:20:44] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-12 16:20:44,378 - INFO - 127.0.0.1 - - [12/May/2026 16:20:44] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-12 16:20:44,658 - INFO - 127.0.0.1 - - [12/May/2026 16:20:44] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-12 16:20:44,660 - INFO - 127.0.0.1 - - [12/May/2026 16:20:44] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-12 16:20:54,271 - INFO - 127.0.0.1 - - [12/May/2026 16:20:54] "[35m[1mGET /api/products HTTP/1.1[0m" 500 -
+2026-05-12 16:21:04,441 - INFO - 127.0.0.1 - - [12/May/2026 16:21:04] "[35m[1mGET /api/products HTTP/1.1[0m" 500 -
+2026-05-12 16:21:08,897 - INFO - 127.0.0.1 - - [12/May/2026 16:21:08] "OPTIONS /api/auth/register HTTP/1.1" 200 -
+2026-05-12 16:21:14,509 - INFO - 127.0.0.1 - - [12/May/2026 16:21:14] "[31m[1mPOST /api/auth/register HTTP/1.1[0m" 400 -
+2026-05-12 16:21:14,622 - INFO - 127.0.0.1 - - [12/May/2026 16:21:14] "[35m[1mGET /api/products HTTP/1.1[0m" 500 -
+2026-05-12 16:26:59,457 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\routes\\productos.py', reloading
+2026-05-12 16:26:59,496 - INFO -  * Restarting with stat
+2026-05-12 16:26:59,732 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\app.py', reloading
+2026-05-12 16:26:59,773 - INFO -  * Restarting with stat
+2026-05-12 16:26:59,883 - WARNING -  * Debugger is active!
+2026-05-12 16:26:59,898 - INFO -  * Debugger PIN: 146-191-866
+2026-05-12 16:27:00,125 - WARNING -  * Debugger is active!
+2026-05-12 16:27:00,137 - INFO -  * Debugger PIN: 146-191-866

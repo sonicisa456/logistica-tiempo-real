@@ -19,9 +19,9 @@ logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(message)s"
 )
 
-app.register_blueprint(routes)
-app.register_blueprint(productos_routes)
-app.register_blueprint(usuarios_routes)
+app.register_blueprint(routes, url_prefix="/api")
+app.register_blueprint(productos_routes, url_prefix="/api")
+app.register_blueprint(usuarios_routes, url_prefix="/api")
 
 @app.route("/")
 def home():
