@@ -8,9 +8,15 @@ routes = Blueprint('routes', __name__)
 @routes.route("/pedido", methods=["POST"])
 def crear():
     data = request.json
-    cliente = data.get("cliente")
-    crear_pedido(cliente)
-    logging.info(f"Pedido creado por {cliente}")
+
+    usuario_id = data.get("usuario_id")
+    total = data.get("total")
+    productos = data.get("productos")
+
+    crear_pedido(usuario_id, total, productos)
+
+    logging.info(f"Pedido creado por {usuario_id}")
+
     return {"mensaje": "Pedido creado"}, 201
 
 @routes.route("/pedido/<int:id>", methods=["PUT"])

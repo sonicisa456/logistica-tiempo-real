@@ -372,6 +372,7 @@
 2026-05-10 17:12:23,295 - INFO -  * Debugger PIN: 291-622-173
 2026-05-10 17:12:47,032 - INFO - Pedido creado por Ricardo
 2026-05-10 17:12:47,033 - INFO - 172.20.0.1 - - [10/May/2026 17:12:47] "[35m[1mPOST /pedido HTTP/1.1[0m" 201 -
+<<<<<<< HEAD
 2026-05-12 17:14:48,829 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
@@ -442,3 +443,83 @@
 2026-05-12 19:48:28,487 - INFO -  * Debugger PIN: 125-383-215
 2026-05-12 19:52:47,732 - INFO - 172.18.0.1 - - [12/May/2026 19:52:47] "GET /api/locations HTTP/1.1" 200 -
 2026-05-12 19:52:47,782 - INFO - 172.18.0.1 - - [12/May/2026 19:52:47] "GET /api/locations HTTP/1.1" 200 -
+=======
+2026-05-12 20:21:14,040 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-12 20:21:14,042 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 20:21:14,044 - INFO -  * Restarting with stat
+2026-05-12 20:21:14,789 - WARNING -  * Debugger is active!
+2026-05-12 20:21:14,793 - INFO -  * Debugger PIN: 775-772-760
+2026-05-12 20:21:19,946 - INFO - 172.20.0.1 - - [12/May/2026 20:21:19] "GET /productos HTTP/1.1" 200 -
+2026-05-12 20:21:20,110 - INFO - 172.20.0.1 - - [12/May/2026 20:21:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-12 20:21:35,198 - INFO - 172.20.0.1 - - [12/May/2026 20:21:35] "GET /productos HTTP/1.1" 200 -
+2026-05-12 20:24:32,701 - INFO - 172.20.0.1 - - [12/May/2026 20:24:32] "GET /productos HTTP/1.1" 200 -
+2026-05-12 20:32:42,995 - INFO -  * Detected change in '/app/models/usuarios.py', reloading
+2026-05-12 20:32:43,064 - INFO -  * Restarting with stat
+2026-05-12 20:32:44,354 - WARNING -  * Debugger is active!
+2026-05-12 20:32:44,360 - INFO -  * Debugger PIN: 775-772-760
+2026-05-12 20:33:00,967 - INFO -  * Detected change in '/app/routes/usuarios.py', reloading
+2026-05-12 20:33:01,015 - INFO -  * Restarting with stat
+2026-05-12 20:33:02,025 - WARNING -  * Debugger is active!
+2026-05-12 20:33:02,027 - INFO -  * Debugger PIN: 775-772-760
+2026-05-12 20:33:18,301 - INFO -  * Detected change in '/app/app.py', reloading
+2026-05-12 20:33:18,373 - INFO -  * Restarting with stat
+2026-05-12 20:33:19,626 - WARNING -  * Debugger is active!
+2026-05-12 20:33:19,629 - INFO -  * Debugger PIN: 775-772-760
+2026-05-12 20:33:25,788 - INFO -  * Detected change in '/app/app.py', reloading
+2026-05-12 20:33:25,829 - INFO -  * Restarting with stat
+2026-05-12 20:33:26,913 - WARNING -  * Debugger is active!
+2026-05-12 20:33:26,914 - INFO -  * Debugger PIN: 775-772-760
+2026-05-12 20:34:08,576 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-12 20:34:08,577 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 20:34:08,580 - INFO -  * Restarting with stat
+2026-05-12 20:34:09,416 - WARNING -  * Debugger is active!
+2026-05-12 20:34:09,418 - INFO -  * Debugger PIN: 758-334-502
+2026-05-12 20:35:45,638 - INFO - 172.20.0.1 - - [12/May/2026 20:35:45] "[35m[1mPOST /registro HTTP/1.1[0m" 201 -
+2026-05-12 20:37:53,882 - INFO -  * Detected change in '/app/models/usuarios.py', reloading
+2026-05-12 20:37:53,939 - INFO -  * Restarting with stat
+2026-05-12 20:37:55,456 - WARNING -  * Debugger is active!
+2026-05-12 20:37:55,460 - INFO -  * Debugger PIN: 758-334-502
+2026-05-12 20:38:18,543 - INFO -  * Detected change in '/app/routes/usuarios.py', reloading
+2026-05-12 20:38:18,585 - INFO -  * Restarting with stat
+2026-05-12 20:38:19,843 - WARNING -  * Debugger is active!
+2026-05-12 20:38:19,844 - INFO -  * Debugger PIN: 758-334-502
+2026-05-12 20:38:35,752 - INFO -  * Detected change in '/app/routes/usuarios.py', reloading
+2026-05-12 20:38:35,805 - INFO -  * Restarting with stat
+2026-05-12 20:38:36,883 - WARNING -  * Debugger is active!
+2026-05-12 20:38:36,884 - INFO -  * Debugger PIN: 758-334-502
+2026-05-12 20:39:14,160 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-12 20:39:14,161 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 20:39:14,164 - INFO -  * Restarting with stat
+2026-05-12 20:39:15,017 - WARNING -  * Debugger is active!
+2026-05-12 20:39:15,019 - INFO -  * Debugger PIN: 114-771-146
+2026-05-12 20:39:32,367 - INFO - 172.20.0.1 - - [12/May/2026 20:39:32] "POST /login HTTP/1.1" 200 -
+2026-05-12 20:43:36,240 - INFO -  * Detected change in '/app/models/pedidos.py', reloading
+2026-05-12 20:43:36,276 - INFO -  * Restarting with stat
+2026-05-12 20:43:37,361 - WARNING -  * Debugger is active!
+2026-05-12 20:43:37,365 - INFO -  * Debugger PIN: 114-771-146
+2026-05-12 20:45:09,754 - INFO -  * Detected change in '/app/routes/pedidos.py', reloading
+2026-05-12 20:45:09,781 - INFO -  * Restarting with stat
+2026-05-12 20:45:10,546 - WARNING -  * Debugger is active!
+2026-05-12 20:45:10,548 - INFO -  * Debugger PIN: 114-771-146
+2026-05-12 20:45:26,369 - INFO -  * Detected change in '/app/routes/pedidos.py', reloading
+2026-05-12 20:45:26,420 - INFO -  * Restarting with stat
+2026-05-12 20:45:27,055 - WARNING -  * Debugger is active!
+2026-05-12 20:45:27,058 - INFO -  * Debugger PIN: 114-771-146
+2026-05-12 20:46:07,809 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.20.0.3:5000
+2026-05-12 20:46:07,810 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 20:46:07,812 - INFO -  * Restarting with stat
+2026-05-12 20:46:08,410 - WARNING -  * Debugger is active!
+2026-05-12 20:46:08,410 - INFO -  * Debugger PIN: 486-304-754
+>>>>>>> 81ffb18 (Backend marketplace completo)
