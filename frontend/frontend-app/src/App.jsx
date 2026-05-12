@@ -951,7 +951,7 @@ function App() {
                 <div className="product-image"><img src={product.imagen} alt={product.nombre} /></div>
                 <div className="product-body">
                   <h4>{product.nombre}</h4>
-                  <p className="seller-name">{product.tienda}</p>
+                  <p className="seller-name">{product.vendedor}</p>
                   <div className="product-price">${product.precio}</div>
                   <div className="product-discount">{product.descuento ? `${product.descuento}% OFF` : ""}</div>
                   <button className="mini-button" type="button" onClick={() => addToCart(product)}>Agregar al carrito</button>
@@ -959,6 +959,28 @@ function App() {
               </article>
             ))}
           </div>
+        </section>
+
+        <section className="offer-suggestions">
+          <h2>Ofertas especiales</h2>
+          {offers.length > 0 ? (
+            <div className="product-grid">
+              {offers.slice(0, 8).map((offer) => (
+                <article key={`offer-${offer.id}`} className="product-card glass-card">
+                  <div className="product-image"><img src={offer.imagen} alt={offer.nombre} /></div>
+                  <div className="product-body">
+                    <h4>{offer.nombre}</h4>
+                    <p className="seller-name">{offer.vendedor}</p>
+                    <div className="product-price">${offer.precio}</div>
+                    <div className="product-discount">{offer.descuento ? `${offer.descuento}% OFF` : ""}</div>
+                    <button className="mini-button" type="button" onClick={() => addToCart(offer)}>Agregar al carrito</button>
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <p className="empty-state">No hay ofertas disponibles en este momento.</p>
+          )}
         </section>
       </main>
     </div>

@@ -37,3 +37,43 @@
 2026-05-12 16:26:59,898 - INFO -  * Debugger PIN: 146-191-866
 2026-05-12 16:27:00,125 - WARNING -  * Debugger is active!
 2026-05-12 16:27:00,137 - INFO -  * Debugger PIN: 146-191-866
+2026-05-12 22:37:11,383 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2026-05-12 22:37:11,384 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 22:37:11,386 - INFO -  * Restarting with stat
+2026-05-12 22:37:11,840 - WARNING -  * Debugger is active!
+2026-05-12 22:37:11,842 - INFO -  * Debugger PIN: 367-756-709
+2026-05-12 22:39:30,399 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-12 22:39:30,400 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-12 22:39:30,402 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-12 22:39:30,416 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-12 22:39:30,418 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-12 22:39:30,421 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-12 22:39:30,765 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[35m[1mGET /api/products HTTP/1.1[0m" 500 -
+2026-05-12 22:39:30,802 - INFO - 172.18.0.1 - - [12/May/2026 22:39:30] "[35m[1mGET /api/products HTTP/1.1[0m" 500 -
+2026-05-12 22:42:52,661 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2026-05-12 22:42:52,661 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 22:42:52,664 - INFO -  * Restarting with stat
+2026-05-12 22:42:52,978 - WARNING -  * Debugger is active!
+2026-05-12 22:42:52,980 - INFO -  * Debugger PIN: 163-050-900
+2026-05-12 22:47:22,345 - INFO - 172.18.0.1 - - [12/May/2026 22:47:22] "GET /api/products HTTP/1.1" 200 -
+2026-05-12 22:50:33,339 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-12 22:50:33,342 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-12 22:50:33,351 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-12 22:50:33,355 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-12 22:50:33,358 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-12 22:50:33,362 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-12 22:50:33,444 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "GET /api/products HTTP/1.1" 200 -
+2026-05-12 22:50:33,471 - INFO - 172.18.0.1 - - [12/May/2026 22:50:33] "GET /api/products HTTP/1.1" 200 -
+2026-05-12 22:50:54,797 - INFO - 172.18.0.1 - - [12/May/2026 22:50:54] "OPTIONS /api/auth/login HTTP/1.1" 200 -
+2026-05-12 22:50:54,854 - INFO - 172.18.0.1 - - [12/May/2026 22:50:54] "[31m[1mPOST /api/auth/login HTTP/1.1[0m" 401 -
+2026-05-12 22:51:04,513 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "OPTIONS /api/auth/register HTTP/1.1" 200 -
+2026-05-12 22:51:04,577 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 201 -
+2026-05-12 22:51:04,586 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-12 22:51:04,612 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-12 22:51:04,648 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "[33mOPTIONS /api/cart HTTP/1.1[0m" 404 -
