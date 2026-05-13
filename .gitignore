@@ -1,21 +1,7 @@
-<<<<<<< HEAD
+# Node
 node_modules/
 backend/node_modules/
 frontend/frontend-app/node_modules/
-
-.env
-backend/.env
-
-logs/*.log
-!logs/.gitkeep
-
-dist/
-build/
-__pycache__/
-*.pyc
-=======
-# Node
-node_modules/
 
 # Python
 __pycache__/
@@ -23,11 +9,16 @@ __pycache__/
 
 # Logs
 logs/
+backend/logs/
 *.log
 
 # Env
 .env
+backend/.env
 
-# Docker volumes
+# Build
+dist/
+build/
+
+# Docker
 db_data/
->>>>>>> 17dd0cd1002a8a6892f34d4b76e874ebac00acd1
