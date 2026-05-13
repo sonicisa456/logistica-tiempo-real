@@ -1,7 +1,7 @@
 # app.py
 
 import logging
-from flask import Flask
+from flask import Flask, render_template
 from flask_cors import CORS
 
 from routes.api import api as api_routes
@@ -27,5 +27,11 @@ app.register_blueprint(usuarios_routes, url_prefix="/api")
 def home():
     return {"mensaje": "Marketplace Flask funcionando"}
 
+@app.route('/admin')
+def admin_page():
+    # Esto sirve para mostrar admin.html
+    return render_template('admin.html')
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
+

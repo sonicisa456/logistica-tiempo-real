@@ -77,6 +77,7 @@
 2026-05-12 22:51:04,586 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "OPTIONS /api/auth/me HTTP/1.1" 200 -
 2026-05-12 22:51:04,612 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "GET /api/auth/me HTTP/1.1" 200 -
 2026-05-12 22:51:04,648 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "[33mOPTIONS /api/cart HTTP/1.1[0m" 404 -
+<<<<<<< HEAD
 2026-05-13 04:17:45,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
@@ -250,3 +251,34 @@
 2026-05-13 05:18:26,623 - INFO -  * Restarting with stat
 2026-05-13 05:18:29,356 - WARNING -  * Debugger is active!
 2026-05-13 05:18:29,361 - INFO -  * Debugger PIN: 199-021-092
+=======
+2026-05-12 21:44:21,780 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.5.25:5000
+2026-05-12 21:44:21,780 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 21:44:21,785 - INFO -  * Restarting with stat
+2026-05-12 21:44:22,168 - WARNING -  * Debugger is active!
+2026-05-12 21:44:22,192 - INFO -  * Debugger PIN: 539-761-055
+2026-05-12 21:44:26,764 - INFO - 127.0.0.1 - - [12/May/2026 21:44:26] "[33mGET /admin HTTP/1.1[0m" 404 -
+2026-05-12 21:44:27,008 - INFO - 127.0.0.1 - - [12/May/2026 21:44:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-05-12 21:45:09,409 - INFO - 127.0.0.1 - - [12/May/2026 21:45:09] "[33mGET /admin HTTP/1.1[0m" 404 -
+2026-05-12 21:45:23,247 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.5.25:5000
+2026-05-12 21:45:23,248 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-12 21:45:23,252 - INFO -  * Restarting with stat
+2026-05-12 21:45:23,666 - WARNING -  * Debugger is active!
+2026-05-12 21:45:23,680 - INFO -  * Debugger PIN: 539-761-055
+2026-05-12 21:45:29,368 - INFO - 127.0.0.1 - - [12/May/2026 21:45:29] "[33mGET /admin HTTP/1.1[0m" 404 -
+2026-05-12 21:48:18,160 - INFO -  * Detected change in 'C:\\Users\\isaia\\OneDrive\\Escritorio\\backend\\app.py', reloading
+2026-05-12 21:48:18,199 - INFO -  * Restarting with stat
+2026-05-12 21:48:18,592 - WARNING -  * Debugger is active!
+2026-05-12 21:48:18,607 - INFO -  * Debugger PIN: 539-761-055
+2026-05-12 21:48:27,138 - INFO - 127.0.0.1 - - [12/May/2026 21:48:27] "GET /admin HTTP/1.1" 200 -
+2026-05-12 21:48:48,626 - INFO - 127.0.0.1 - - [12/May/2026 21:48:48] "[33mGET /products HTTP/1.1[0m" 404 -
+2026-05-12 21:48:57,241 - INFO - 127.0.0.1 - - [12/May/2026 21:48:57] "[33mGET /productos HTTP/1.1[0m" 404 -
+>>>>>>> a9e70f9412289c2bc1764043c881310d55d15f21
+2026-05-13 05:20:25,562 - WARNING -  * Debugger is active!
+2026-05-13 05:20:25,564 - INFO -  * Debugger PIN: 199-021-092
