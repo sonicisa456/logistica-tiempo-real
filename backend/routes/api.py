@@ -4,7 +4,7 @@ from datetime import date, timedelta
 from flask import Blueprint, request
 from werkzeug.security import generate_password_hash, check_password_hash
 from mysql.connector import IntegrityError
-from db import get_connection
+from backend.db import get_connection
 
 api = Blueprint('api', __name__, url_prefix='/api')
 

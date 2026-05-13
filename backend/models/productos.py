@@ -1,4 +1,4 @@
-from db import get_connection
+from backend.db import get_connection
 
 def obtener_productos_db():
     conn = get_connection()

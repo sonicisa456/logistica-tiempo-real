@@ -1,5 +1,5 @@
 # models/pedidos.py
-from db import get_connection
+from backend.db import get_connection
 
 def crear_pedido(usuario_id, total, productos):
 

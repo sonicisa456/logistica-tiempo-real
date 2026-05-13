@@ -1,13 +1,13 @@
 # app.py
-from db import get_connection
+from backend.db import get_connection
 import logging
 from flask import Flask, render_template
 from flask_cors import CORS
 
-from routes.api import api as api_routes
-from routes.pedidos import routes
-from routes.usuarios import usuarios_routes
-from routes.dashboard import dashboard_routes
+from backend.routes.api import api as api_routes
+from backend.routes.pedidos import routes
+from backend.routes.usuarios import usuarios_routes
+from backend.routes.dashboard import dashboard_routes
 
 app = Flask(__name__)
 

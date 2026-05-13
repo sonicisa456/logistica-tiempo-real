@@ -1,6 +1,6 @@
 # routes/dashboard.py
 from flask import Blueprint, jsonify
-from db import get_connection
+from backend.db import get_connection
 
 dashboard_routes = Blueprint('dashboard_routes', __name__)
 
