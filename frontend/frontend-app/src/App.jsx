@@ -21,6 +21,17 @@ const INITIAL_LOCATION = {
   detalle: "Av. Insurgentes 1450"
 };
 
+const DEFAULT_SEARCH_SUGGESTIONS = [
+  'Smartphone Nova X',
+  'Consola Pulse One',
+  'Auriculares SonicBeat',
+  'Tenis Urban Runner',
+  'Mochila TravelPro',
+  'Smartwatch Vibe S',
+  'Tablet Glide 10',
+  'Set de Jardín Eco'
+];
+
 function App() {
   const [products, setProducts] = useState([]);
   const [offers, setOffers] = useState([]);
@@ -37,6 +48,7 @@ function App() {
   const [showAuthModal, setShowAuthModal] = useState(false);
   const [showSellerModal, setShowSellerModal] = useState(false);
   const [showOrdersModal, setShowOrdersModal] = useState(false);
+  const [showSearchSuggestions, setShowSearchSuggestions] = useState(false);
   const [authMode, setAuthMode] = useState("login");
   const [loginPrompt, setLoginPrompt] = useState("");
   const [actionMessage, setActionMessage] = useState("");
@@ -236,23 +248,28 @@ function App() {
     loadOffers();
   }, []);
 
-  const handleSearch = async () => {
-    const query = searchQuery.trim();
-    if (!query) {
+  const handleSearch = async (query) => {
+    const termino = (query !== undefined ? query : searchQuery).trim();
+    if (!termino) {
       setSearchResults(null);
       setSearchCategories([]);
       setSearchVendors([]);
+      setSearchQuery(termino);
+      setShowSearchSuggestions(false);
       return;
     }
+    setSearchQuery(termino);
     try {
-      const response = await API.get("/api/search", { params: { q: query } });
+      const response = await API.get("/api/search", { params: { q: termino } });
       setSearchResults(response.data.productos || []);
       setSearchCategories(response.data.categorias || []);
       setSearchVendors(response.data.vendedores || []);
+      setShowSearchSuggestions(false);
     } catch {
       setSearchResults([]);
       setSearchCategories([]);
       setSearchVendors([]);
+      setShowSearchSuggestions(false);
     }
   };
 
@@ -489,12 +506,13 @@ function App() {
   const filteredStateOptions = states.filter((estado) => estado.toLowerCase().includes(stateFilter.toLowerCase()));
   const filteredCityOptions = cities.filter((ciudad) => ciudad.toLowerCase().includes(cityFilter.toLowerCase()));
 
-  const featuredProducts = products.filter((product) => product.destacado).slice(0, 6);
-  const bestSelling = [...products].sort((a, b) => b.vendido - a.vendido).slice(0, 6);
-  const lowStock = products.filter((product) => product.stock > 0 && product.stock <= 5).slice(0, 6);
-  const soldOut = products.filter((product) => product.stock <= 0).slice(0, 6);
-  const newProducts = products.filter((product) => product.estado?.toLowerCase().includes("nuevo")).slice(0, 6);
   const categoryCards = categories.slice(0, 6);
+  const searchSuggestions = products.length > 0
+    ? products.map((product) => product.nombre)
+    : DEFAULT_SEARCH_SUGGESTIONS;
+  const filteredSearchSuggestions = searchSuggestions
+    .filter((item) => item.toLowerCase().includes(searchQuery.toLowerCase()))
+    .slice(0, 10);
 
   const buildStockLabel = (product) => {
     if (product.stock <= 0) return "Agotado";
@@ -516,18 +534,42 @@ function App() {
             </div>
           </div>
           <div className="header-search">
-            <label className="search-box" htmlFor="search-marketplace">
-              <span className="search-icon">⌕</span>
-              <input
-                id="search-marketplace"
-                type="search"
-                value={searchQuery}
-                onChange={(event) => setSearchQuery(event.target.value)}
-                onKeyDown={(event) => event.key === "Enter" && handleSearch()}
-                placeholder="Buscar productos, categorías, vendedores u ofertas"
-              />
-              <button type="button" onClick={handleSearch}>Buscar</button>
-            </label>
+            <div className="search-box" onBlur={() => setTimeout(() => setShowSearchSuggestions(false), 150)}>
+              <label htmlFor="search-marketplace">
+                <span className="search-icon">⌕</span>
+                <input
+                  id="search-marketplace"
+                  type="search"
+                  value={searchQuery}
+                  onChange={(event) => {
+                    setSearchQuery(event.target.value);
+                    setShowSearchSuggestions(true);
+                  }}
+                  onFocus={() => setShowSearchSuggestions(true)}
+                  onKeyDown={(event) => event.key === "Enter" && handleSearch()}
+                  placeholder="Buscar productos, categorías, vendedores u ofertas"
+                />
+              </label>
+              <button type="button" onClick={() => handleSearch()}>{searchQuery ? 'Buscar' : 'Buscar'}</button>
+              {showSearchSuggestions && (
+                <div className="search-dropdown">
+                  {filteredSearchSuggestions.length > 0 ? (
+                    filteredSearchSuggestions.map((item) => (
+                      <button
+                        key={item}
+                        type="button"
+                        className="search-suggestion"
+                        onMouseDown={() => handleSearch(item)}
+                      >
+                        {item}
+                      </button>
+                    ))
+                  ) : (
+                    <div className="search-suggestion">No hay sugerencias</div>
+                  )}
+                </div>
+              )}
+            </div>
           </div>
           <div className="header-buttons">
             {!loggedIn ? (
@@ -942,17 +984,22 @@ function App() {
       <main className="page-content">
         {actionMessage && <div className="save-message">{actionMessage}</div>}
         {saveMessage && <div className="save-message">{saveMessage}</div>}
-
         <section className="product-suggestions">
           <h2>Sugerencias de Productos</h2>
           <div className="product-grid">
-            {products.slice(0, 12).map((product) => (
+            {products.slice(0, 18).map((product) => (
               <article key={product.id} className="product-card glass-card">
                 <div className="product-image"><img src={product.imagen} alt={product.nombre} /></div>
                 <div className="product-body">
                   <h4>{product.nombre}</h4>
                   <p className="seller-name">{product.vendedor}</p>
-                  <div className="product-price">${product.precio}</div>
+                  <p className="product-description">{product.descripcion}</p>
+                  <div className="product-meta-row">
+                    <span className={`product-stock ${product.stock <= 0 ? 'out-of-stock' : ''}`}>
+                      {product.stock > 0 ? `${product.stock} disponibles` : 'Agotado'}
+                    </span>
+                    <span className="product-price">${product.precio}</span>
+                  </div>
                   <div className="product-discount">{product.descuento ? `${product.descuento}% OFF` : ""}</div>
                   <button className="mini-button" type="button" onClick={() => addToCart(product)}>Agregar al carrito</button>
                 </div>
@@ -963,6 +1010,7 @@ function App() {
 
         <section className="offer-suggestions">
           <h2>Ofertas especiales</h2>
+          <p className="section-meta">{offers.length} ofertas activas</p>
           {offers.length > 0 ? (
             <div className="product-grid">
               {offers.slice(0, 8).map((offer) => (
@@ -971,7 +1019,13 @@ function App() {
                   <div className="product-body">
                     <h4>{offer.nombre}</h4>
                     <p className="seller-name">{offer.vendedor}</p>
-                    <div className="product-price">${offer.precio}</div>
+                    <p className="product-description">{offer.descripcion}</p>
+                    <div className="product-meta-row">
+                      <span className={`product-stock ${offer.stock <= 0 ? 'out-of-stock' : ''}`}>
+                        {offer.stock > 0 ? `${offer.stock} disponibles` : 'Agotado'}
+                      </span>
+                      <span className="product-price">${offer.precio}</span>
+                    </div>
                     <div className="product-discount">{offer.descuento ? `${offer.descuento}% OFF` : ""}</div>
                     <button className="mini-button" type="button" onClick={() => addToCart(offer)}>Agregar al carrito</button>
                   </div>

@@ -4,8 +4,8 @@ import logging
 from flask import Flask
 from flask_cors import CORS
 
+from routes.api import api as api_routes
 from routes.pedidos import routes
-from routes.productos import productos_routes
 from routes.usuarios import usuarios_routes
 
 app = Flask(__name__)
@@ -20,7 +20,7 @@ logging.basicConfig(
 )
 
 app.register_blueprint(routes, url_prefix="/api")
-app.register_blueprint(productos_routes, url_prefix="/api")
+app.register_blueprint(api_routes)
 app.register_blueprint(usuarios_routes, url_prefix="/api")
 
 @app.route("/")
