@@ -10,6 +10,8 @@ services:
       - backend-api
     ports:
       - "3000:80"
+    networks:
+      - logistica_network
     restart: unless-stopped
 
   frontend-private:
@@ -22,6 +24,8 @@ services:
       - backend-api
     ports:
       - "3001:80"
+    networks:
+      - logistica_network
     restart: unless-stopped
 
   backend-api:
@@ -43,9 +47,11 @@ services:
       DB_NAME: logistica
       JWT_SECRET: cambia_este_secreto_en_produccion
       JWT_EXPIRES_IN: 8h
-      CORS_ORIGIN: http://localhost:3000
+      CORS_ORIGIN: http://frontend-public:80
     volumes:
       - ./logs:/logs
+    networks:
+      - logistica_network
     restart: unless-stopped
 
   database:
@@ -59,6 +65,8 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
+    networks:
+      - logistica_network
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p1234"]
       interval: 10s
@@ -67,3 +75,7 @@ services:
 
 volumes:
   db_data:
+
+networks:
+  logistica_network:
+    driver: bridge

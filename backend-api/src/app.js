@@ -11,7 +11,10 @@ const app = express();
 
 const corsOptions = {
   origin(origin, callback) {
-    if (!origin || /^http:\/\/(localhost|127\.0\.0\.1):\d+$/.test(origin)) {
+    // Permitir: localhost, 127.0.0.1, nombres de servicios Docker, y CORS_ORIGIN
+    if (!origin || 
+        /^http:\/\/(localhost|127\.0\.0\.1|frontend-public|frontend-private|backend-api|database):\d+$/.test(origin) ||
+        /^http:\/\/(localhost|127\.0\.0\.1|frontend-public|frontend-private|backend-api|database)(?::\d+)?$/.test(origin)) {
       return callback(null, true);
     }
 
