@@ -87,8 +87,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px;
-  gap: 20px;
+  padding: 8px 16px;
+  gap: 16px;
 }
 
 .header-logo {
@@ -110,8 +110,8 @@
 .header-level2 {
   display: flex;
   align-items: center;
-  padding: 8px 20px;
-  gap: 20px;
+  padding: 6px 16px;
+  gap: 16px;
   border-top: 1px solid rgba(255, 255, 255, 0.05);
 }
 
@@ -154,9 +154,72 @@
 }
 
 .product-suggestions h2 {
-  margin-bottom: 20px;
+  margin-bottom: 8px;
   font-size: 24px;
   font-weight: bold;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.98);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(15, 23, 42, 0.12);
+  z-index: 30;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.search-suggestion {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  border: none;
+  background: transparent;
+  color: #0f172a;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.search-suggestion:hover {
+  background: rgba(15, 23, 42, 0.04);
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 14px 52px 14px 40px;
+}
+
+.product-description {
+  margin: 8px 0 14px;
+  font-size: 0.95rem;
+  color: rgba(75, 85, 99, 0.95);
+  line-height: 1.45;
+}
+
+.product-stock {
+  font-size: 0.95rem;
+  color: #16a34a;
+  font-weight: 700;
+}
+
+.product-stock.out-of-stock {
+  color: #dc2626;
+}
+
+.product-meta-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 10px;
 }
 
 .product-grid {
@@ -203,7 +266,8 @@
 .product-price {
   font-size: 20px;
   font-weight: bold;
-  color: #000;
+  color: #16a34a;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 .product-discount {
@@ -236,7 +300,7 @@
 .theme-light .product-card .seller-name,
 .theme-light .product-card .product-price,
 .theme-light .product-card .product-discount {
-  color: #111827;
+  color: #0f5132;
 }
 
 .theme-light .product-card .seller-name {
@@ -266,13 +330,18 @@
 .brand-icon {
   display: grid;
   place-items: center;
-  width: 58px;
-  height: 58px;
-  border-radius: 18px;
-  font-size: 1.4rem;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  font-size: 1.1rem;
   background: linear-gradient(180deg, #f8d75b, #f2b90f);
   color: #111827;
-  box-shadow: 0 20px 50px rgba(249, 213, 0, 0.28);
+  box-shadow: 0 15px 35px rgba(249, 213, 0, 0.24);
+}
+
+.brand-mark h1 {
+  margin: 0;
+  font-size: 1.75rem;
 }
 
 .brand-kicker {
@@ -317,7 +386,7 @@
 }
 
 .search-box input::placeholder {
-  color: rgba(33, 37, 41, 0.6);
+  color: rgba(255, 255, 255, 0.65);
 }
 
 .search-box button {
@@ -1034,6 +1103,8 @@
 .product-price {
   font-size: 1.5rem;
   font-weight: 800;
+  color: #16a34a;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
 }
 
 .product-discount {

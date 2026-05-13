@@ -77,6 +77,181 @@
 2026-05-12 22:51:04,586 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "OPTIONS /api/auth/me HTTP/1.1" 200 -
 2026-05-12 22:51:04,612 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "GET /api/auth/me HTTP/1.1" 200 -
 2026-05-12 22:51:04,648 - INFO - 172.18.0.1 - - [12/May/2026 22:51:04] "[33mOPTIONS /api/cart HTTP/1.1[0m" 404 -
+<<<<<<< HEAD
+2026-05-13 04:17:45,922 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2026-05-13 04:17:45,922 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-13 04:17:45,924 - INFO -  * Restarting with stat
+2026-05-13 04:17:46,211 - WARNING -  * Debugger is active!
+2026-05-13 04:17:46,214 - INFO -  * Debugger PIN: 527-049-650
+2026-05-13 04:18:16,638 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-13 04:18:16,639 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-13 04:18:16,642 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:18:16,644 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:18:16,653 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-13 04:18:16,656 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "[33mGET /api/categories HTTP/1.1[0m" 404 -
+2026-05-13 04:18:16,659 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "[33mGET /api/locations HTTP/1.1[0m" 404 -
+2026-05-13 04:18:16,665 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "[33mGET /api/offers HTTP/1.1[0m" 404 -
+2026-05-13 04:18:16,986 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:18:16,987 - INFO - 172.18.0.1 - - [13/May/2026 04:18:16] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:18:17,012 - INFO - 172.18.0.1 - - [13/May/2026 04:18:17] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:18:17,013 - INFO - 172.18.0.1 - - [13/May/2026 04:18:17] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:18:17,015 - INFO - 172.18.0.1 - - [13/May/2026 04:18:17] "[33mOPTIONS /api/cart HTTP/1.1[0m" 404 -
+2026-05-13 04:24:18,756 - INFO -  * Detected change in '/app/app.py', reloading
+2026-05-13 04:24:19,076 - INFO -  * Restarting with stat
+2026-05-13 04:27:11,035 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2026-05-13 04:27:11,036 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-13 04:27:11,037 - INFO -  * Restarting with stat
+2026-05-13 04:27:11,352 - WARNING -  * Debugger is active!
+2026-05-13 04:27:11,354 - INFO -  * Debugger PIN: 852-445-195
+2026-05-13 04:27:47,569 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:27:47,570 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 04:27:47,579 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:27:47,595 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 04:27:47,690 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 04:27:47,697 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:27:47,702 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 04:27:47,731 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 04:27:47,738 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:27:47,747 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 04:27:47,750 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:27:47,800 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 04:27:47,834 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:27:47,933 - INFO - 172.18.0.1 - - [13/May/2026 04:27:47] "GET /api/cart HTTP/1.1" 200 -
+2026-05-13 04:29:15,285 - INFO - 172.18.0.1 - - [13/May/2026 04:29:15] "OPTIONS /api/auth/logout HTTP/1.1" 200 -
+2026-05-13 04:29:19,913 - INFO - 172.18.0.1 - - [13/May/2026 04:29:19] "POST /api/auth/logout HTTP/1.1" 200 -
+2026-05-13 04:32:29,756 - INFO - 172.18.0.1 - - [13/May/2026 04:32:29] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 04:32:29,776 - INFO - 172.18.0.1 - - [13/May/2026 04:32:29] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 04:32:30,008 - INFO - 172.18.0.1 - - [13/May/2026 04:32:30] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 04:32:30,027 - INFO - 172.18.0.1 - - [13/May/2026 04:32:30] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 04:32:30,029 - INFO - 172.18.0.1 - - [13/May/2026 04:32:30] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:32:30,108 - INFO - 172.18.0.1 - - [13/May/2026 04:32:30] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 04:32:30,123 - INFO - 172.18.0.1 - - [13/May/2026 04:32:30] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:32:30,154 - INFO - 172.18.0.1 - - [13/May/2026 04:32:30] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 04:33:11,251 - INFO - 172.18.0.1 - - [13/May/2026 04:33:11] "OPTIONS /api/auth/register HTTP/1.1" 200 -
+2026-05-13 04:33:19,509 - INFO - 172.18.0.1 - - [13/May/2026 04:33:19] "[31m[1mPOST /api/auth/register HTTP/1.1[0m" 409 -
+2026-05-13 04:33:21,084 - INFO - 172.18.0.1 - - [13/May/2026 04:33:21] "[35m[1mPOST /api/auth/register HTTP/1.1[0m" 201 -
+2026-05-13 04:33:21,091 - INFO - 172.18.0.1 - - [13/May/2026 04:33:21] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:33:21,178 - INFO - 172.18.0.1 - - [13/May/2026 04:33:21] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:33:21,205 - INFO - 172.18.0.1 - - [13/May/2026 04:33:21] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 04:33:21,351 - INFO - 172.18.0.1 - - [13/May/2026 04:33:21] "GET /api/cart HTTP/1.1" 200 -
+2026-05-13 04:33:26,523 - INFO - 172.18.0.1 - - [13/May/2026 04:33:26] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 04:33:26,709 - INFO - 172.18.0.1 - - [13/May/2026 04:33:26] "POST /api/cart HTTP/1.1" 200 -
+2026-05-13 04:33:58,232 - INFO - 172.18.0.1 - - [13/May/2026 04:33:58] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 04:33:58,290 - INFO - 172.18.0.1 - - [13/May/2026 04:33:58] "GET /api/cart HTTP/1.1" 200 -
+2026-05-13 04:34:11,809 - INFO - 172.18.0.1 - - [13/May/2026 04:34:11] "OPTIONS /api/cart/item/1 HTTP/1.1" 200 -
+2026-05-13 04:34:11,906 - INFO - 172.18.0.1 - - [13/May/2026 04:34:11] "DELETE /api/cart/item/1 HTTP/1.1" 200 -
+2026-05-13 04:39:21,573 - INFO - 172.18.0.1 - - [13/May/2026 04:39:21] "GET /api/search?q=Electrónica HTTP/1.1" 200 -
+2026-05-13 04:39:22,436 - INFO - 172.18.0.1 - - [13/May/2026 04:39:22] "GET /api/search?q=Electrónica HTTP/1.1" 200 -
+2026-05-13 04:39:22,993 - INFO - 172.18.0.1 - - [13/May/2026 04:39:22] "GET /api/search?q=Electrónica HTTP/1.1" 200 -
+2026-05-13 04:39:27,888 - INFO - 172.18.0.1 - - [13/May/2026 04:39:27] "GET /api/search?q=Electrónica HTTP/1.1" 200 -
+2026-05-13 04:39:30,504 - INFO - 172.18.0.1 - - [13/May/2026 04:39:30] "GET /api/search?q=Videojuegos HTTP/1.1" 200 -
+2026-05-13 04:39:36,475 - INFO - 172.18.0.1 - - [13/May/2026 04:39:36] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 04:39:36,628 - INFO - 172.18.0.1 - - [13/May/2026 04:39:36] "POST /api/cart HTTP/1.1" 200 -
+2026-05-13 04:39:39,891 - INFO - 172.18.0.1 - - [13/May/2026 04:39:39] "POST /api/cart HTTP/1.1" 200 -
+2026-05-13 04:39:48,821 - INFO - 172.18.0.1 - - [13/May/2026 04:39:48] "GET /api/search?q=Videojuegos HTTP/1.1" 200 -
+2026-05-13 04:39:55,353 - INFO - 172.18.0.1 - - [13/May/2026 04:39:55] "OPTIONS /api/theme HTTP/1.1" 200 -
+2026-05-13 04:39:55,422 - INFO - 172.18.0.1 - - [13/May/2026 04:39:55] "POST /api/theme HTTP/1.1" 200 -
+2026-05-13 04:39:59,673 - INFO - 172.18.0.1 - - [13/May/2026 04:39:59] "POST /api/theme HTTP/1.1" 200 -
+2026-05-13 04:49:20,993 - INFO - 172.18.0.1 - - [13/May/2026 04:49:20] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:49:21,004 - INFO - 172.18.0.1 - - [13/May/2026 04:49:21] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 04:49:21,123 - INFO - 172.18.0.1 - - [13/May/2026 04:49:21] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 04:49:21,127 - INFO - 172.18.0.1 - - [13/May/2026 04:49:21] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 04:49:21,129 - INFO - 172.18.0.1 - - [13/May/2026 04:49:21] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:49:21,161 - INFO - 172.18.0.1 - - [13/May/2026 04:49:21] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:49:21,180 - INFO - 172.18.0.1 - - [13/May/2026 04:49:21] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 04:49:21,234 - INFO - 172.18.0.1 - - [13/May/2026 04:49:21] "GET /api/cart HTTP/1.1" 200 -
+2026-05-13 04:55:12,027 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:55:12,028 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:55:12,037 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 04:55:12,080 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 04:55:12,156 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 04:55:12,162 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 04:55:12,163 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:55:12,191 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 04:55:12,198 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 04:55:12,203 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 04:55:12,210 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:55:12,271 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 04:55:12,325 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 04:55:12,368 - INFO - 172.18.0.1 - - [13/May/2026 04:55:12] "GET /api/cart HTTP/1.1" 200 -
+2026-05-13 04:55:49,572 - INFO - 172.18.0.1 - - [13/May/2026 04:55:49] "GET /api/search?q=Videojuegos HTTP/1.1" 200 -
+2026-05-13 05:05:22,676 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 05:05:22,685 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 05:05:22,692 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 05:05:22,703 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 05:05:22,802 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 05:05:22,808 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 05:05:22,809 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 05:05:22,831 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 05:05:22,841 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 05:05:22,842 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 05:05:22,850 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 05:05:22,882 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "OPTIONS /api/cart HTTP/1.1" 200 -
+2026-05-13 05:05:22,905 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/auth/me HTTP/1.1" 200 -
+2026-05-13 05:05:22,933 - INFO - 172.18.0.1 - - [13/May/2026 05:05:22] "GET /api/cart HTTP/1.1" 200 -
+2026-05-13 05:07:29,335 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2026-05-13 05:07:29,335 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-13 05:07:29,336 - INFO -  * Restarting with stat
+2026-05-13 05:07:29,628 - WARNING -  * Debugger is active!
+2026-05-13 05:07:29,630 - INFO -  * Debugger PIN: 124-646-511
+2026-05-13 05:08:47,077 - INFO - 172.18.0.1 - - [13/May/2026 05:08:47] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 05:08:47,084 - INFO - 172.18.0.1 - - [13/May/2026 05:08:47] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 05:08:47,088 - INFO - 172.18.0.1 - - [13/May/2026 05:08:47] "OPTIONS /api/auth/me HTTP/1.1" 200 -
+2026-05-13 05:09:55,151 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2026-05-13 05:09:55,152 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-13 05:09:55,153 - INFO -  * Restarting with stat
+2026-05-13 05:09:55,463 - WARNING -  * Debugger is active!
+2026-05-13 05:09:55,465 - INFO -  * Debugger PIN: 868-382-566
+2026-05-13 05:10:22,397 - INFO - 172.18.0.1 - - [13/May/2026 05:10:22] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 05:10:22,407 - INFO - 172.18.0.1 - - [13/May/2026 05:10:22] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 05:10:23,073 - INFO - 172.18.0.1 - - [13/May/2026 05:10:23] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 05:10:23,077 - INFO - 172.18.0.1 - - [13/May/2026 05:10:23] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 05:10:23,288 - INFO - 172.18.0.1 - - [13/May/2026 05:10:23] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 05:10:23,290 - INFO - 172.18.0.1 - - [13/May/2026 05:10:23] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 05:10:23,490 - INFO - 172.18.0.1 - - [13/May/2026 05:10:23] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 05:10:24,136 - INFO - 172.18.0.1 - - [13/May/2026 05:10:24] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 05:14:59,216 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.3:5000
+2026-05-13 05:14:59,217 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-13 05:14:59,218 - INFO -  * Restarting with stat
+2026-05-13 05:14:59,599 - WARNING -  * Debugger is active!
+2026-05-13 05:14:59,601 - INFO -  * Debugger PIN: 199-021-092
+2026-05-13 05:15:11,988 - INFO - 172.18.0.1 - - [13/May/2026 05:15:11] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 05:15:12,008 - INFO - 172.18.0.1 - - [13/May/2026 05:15:12] "GET /api/locations HTTP/1.1" 200 -
+2026-05-13 05:15:12,068 - INFO - 172.18.0.1 - - [13/May/2026 05:15:12] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 05:15:12,072 - INFO - 172.18.0.1 - - [13/May/2026 05:15:12] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 05:15:12,075 - INFO - 172.18.0.1 - - [13/May/2026 05:15:12] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 05:15:12,102 - INFO - 172.18.0.1 - - [13/May/2026 05:15:12] "GET /api/categories HTTP/1.1" 200 -
+2026-05-13 05:15:12,103 - INFO - 172.18.0.1 - - [13/May/2026 05:15:12] "GET /api/products HTTP/1.1" 200 -
+2026-05-13 05:15:12,105 - INFO - 172.18.0.1 - - [13/May/2026 05:15:12] "GET /api/offers HTTP/1.1" 200 -
+2026-05-13 05:15:32,042 - INFO - 172.18.0.1 - - [13/May/2026 05:15:32] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:33,439 - INFO - 172.18.0.1 - - [13/May/2026 05:15:33] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:33,881 - INFO - 172.18.0.1 - - [13/May/2026 05:15:33] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:34,063 - INFO - 172.18.0.1 - - [13/May/2026 05:15:34] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:34,216 - INFO - 172.18.0.1 - - [13/May/2026 05:15:34] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:34,536 - INFO - 172.18.0.1 - - [13/May/2026 05:15:34] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:34,698 - INFO - 172.18.0.1 - - [13/May/2026 05:15:34] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:34,890 - INFO - 172.18.0.1 - - [13/May/2026 05:15:34] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:15:35,117 - INFO - 172.18.0.1 - - [13/May/2026 05:15:35] "GET /api/search?q=Consola+Pulse+One HTTP/1.1" 200 -
+2026-05-13 05:18:25,145 - INFO -  * Detected change in '/app/app.py', reloading
+2026-05-13 05:18:26,623 - INFO -  * Restarting with stat
+2026-05-13 05:18:29,356 - WARNING -  * Debugger is active!
+2026-05-13 05:18:29,361 - INFO -  * Debugger PIN: 199-021-092
+=======
 2026-05-12 21:44:21,780 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
@@ -104,6 +279,7 @@
 2026-05-12 21:48:27,138 - INFO - 127.0.0.1 - - [12/May/2026 21:48:27] "GET /admin HTTP/1.1" 200 -
 2026-05-12 21:48:48,626 - INFO - 127.0.0.1 - - [12/May/2026 21:48:48] "[33mGET /products HTTP/1.1[0m" 404 -
 2026-05-12 21:48:57,241 - INFO - 127.0.0.1 - - [12/May/2026 21:48:57] "[33mGET /productos HTTP/1.1[0m" 404 -
+<<<<<<< HEAD
 2026-05-12 22:31:50,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
  * Running on all addresses (0.0.0.0)
  * Running on http://127.0.0.1:5000
@@ -213,3 +389,10 @@
 2026-05-13 00:07:24,545 - INFO -  * Debugger PIN: 539-761-055
 2026-05-13 06:07:32,630 - INFO - 172.20.0.1 - - [13/May/2026 06:07:32] "GET /admin HTTP/1.1" 200 -
 2026-05-13 06:07:32,821 - INFO - 172.20.0.1 - - [13/May/2026 06:07:32] "GET /api/dashboard HTTP/1.1" 200 -
+=======
+>>>>>>> a9e70f9412289c2bc1764043c881310d55d15f21
+2026-05-13 05:20:25,562 - WARNING -  * Debugger is active!
+2026-05-13 05:20:25,564 - INFO -  * Debugger PIN: 199-021-092
+>>>>>>> faa638149563c74b4325c1bff65cfde5f3c5f535
+2026-05-13 06:15:34,493 - WARNING -  * Debugger is active!
+2026-05-13 06:15:34,495 - INFO -  * Debugger PIN: 329-308-300
