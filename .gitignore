@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 node_modules/
 backend/node_modules/
 frontend/frontend-app/node_modules/
@@ -12,3 +13,21 @@ dist/
 build/
 __pycache__/
 *.pyc
+=======
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Env
+.env
+
+# Docker volumes
+db_data/
+>>>>>>> 17dd0cd1002a8a6892f34d4b76e874ebac00acd1

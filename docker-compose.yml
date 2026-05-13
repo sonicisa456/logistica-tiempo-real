@@ -1,13 +1,62 @@
 services:
-  db:
+  frontend-public:
+    build:
+      context: ./frontend-public
+      args:
+        VITE_API_URL: http://localhost:5000/api
+        VITE_PRIVATE_URL: http://localhost:3001/login
+    container_name: frontend_public_logistica
+    depends_on:
+      - backend-api
+    ports:
+      - "3000:80"
+    restart: unless-stopped
+
+  frontend-private:
+    build:
+      context: ./frontend-private
+      args:
+        VITE_API_URL: http://localhost:5000/api
+    container_name: frontend_private_logistica
+    depends_on:
+      - backend-api
+    ports:
+      - "3001:80"
+    restart: unless-stopped
+
+  backend-api:
+    build:
+      context: ./backend-api
+    container_name: backend_api_logistica
+    depends_on:
+      database:
+        condition: service_healthy
+    ports:
+      - "5000:5000"
+    environment:
+      NODE_ENV: development
+      PORT: 5000
+      DB_HOST: database
+      DB_PORT: 3306
+      DB_USER: root
+      DB_PASSWORD: 1234
+      DB_NAME: logistica
+      JWT_SECRET: cambia_este_secreto_en_produccion
+      JWT_EXPIRES_IN: 8h
+      CORS_ORIGIN: http://localhost:3000
+    volumes:
+      - ./logs:/logs
+    restart: unless-stopped
+
+  database:
     image: mysql:8.0
-    container_name: mysql_logistica
+    container_name: database_logistica
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: logistica
     ports:
-      - "3307:3306"
+      - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
     healthcheck:
@@ -15,40 +64,6 @@ services:
       interval: 10s
       timeout: 5s
       retries: 10
-
-  backend:
-    build:
-      context: ./backend
-    container_name: backend_logistica
-    depends_on:
-      db:
-        condition: service_healthy
-    ports:
-      - "5000:5000"
-    environment:
-      NODE_ENV: development
-      PORT: 5000
-      DB_HOST: db
-      DB_PORT: 3306
-      DB_USER: root
-      DB_PASSWORD: 1234
-      DB_NAME: logistica
-      JWT_SECRET: cambia_este_secreto_en_produccion
-      JWT_EXPIRES_IN: 8h
-      CORS_ORIGIN: http://localhost:5173
-    volumes:
-      - ./logs:/logs
-    restart: unless-stopped
-
-  frontend:
-    build:
-      context: ./frontend/frontend-app
-    container_name: frontend_logistica
-    depends_on:
-      - backend
-    ports:
-      - "5173:80"
-    restart: unless-stopped
 
 volumes:
   db_data:
