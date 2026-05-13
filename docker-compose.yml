@@ -1,33 +1,54 @@
-version: '3.8'
-
 services:
   db:
     image: mysql:8.0
     container_name: mysql_logistica
-    restart: always
+    restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: 1234   # tu contraseña real
+      MYSQL_ROOT_PASSWORD: 1234
       MYSQL_DATABASE: logistica
     ports:
       - "3307:3306"
     volumes:
       - db_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p1234"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
 
   backend:
-    build: .
+    build:
+      context: ./backend
     container_name: backend_logistica
     depends_on:
-      - db
+      db:
+        condition: service_healthy
     ports:
       - "5000:5000"
     environment:
+      NODE_ENV: development
+      PORT: 5000
       DB_HOST: db
+      DB_PORT: 3306
       DB_USER: root
       DB_PASSWORD: 1234
       DB_NAME: logistica
+      JWT_SECRET: cambia_este_secreto_en_produccion
+      JWT_EXPIRES_IN: 8h
+      CORS_ORIGIN: http://localhost:5173
     volumes:
-      - .:/app
-    command: python app.py
+      - ./logs:/logs
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend/frontend-app
+    container_name: frontend_logistica
+    depends_on:
+      - backend
+    ports:
+      - "5173:80"
+    restart: unless-stopped
 
 volumes:
   db_data:

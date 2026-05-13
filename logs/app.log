@@ -282,3 +282,245 @@
 >>>>>>> a9e70f9412289c2bc1764043c881310d55d15f21
 2026-05-13 05:20:25,562 - WARNING -  * Debugger is active!
 2026-05-13 05:20:25,564 - INFO -  * Debugger PIN: 199-021-092
+[2026-05-13 06:36:16] INFO: Conexion a MySQL establecida
+[2026-05-13 06:36:24] INFO: Tablas verificadas correctamente
+[2026-05-13 06:36:24] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:36:31] INFO: Conexion a MySQL establecida
+[2026-05-13 06:36:31] INFO: Tablas verificadas correctamente
+[2026-05-13 06:36:31] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:36:32] INFO: Conexion a MySQL establecida
+[2026-05-13 06:36:32] INFO: Tablas verificadas correctamente
+[2026-05-13 06:36:32] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:36:33] INFO: Conexion a MySQL establecida
+[2026-05-13 06:36:34] INFO: Tablas verificadas correctamente
+[2026-05-13 06:36:34] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:36:35] INFO: Conexion a MySQL establecida
+[2026-05-13 06:36:35] INFO: Tablas verificadas correctamente
+[2026-05-13 06:36:35] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:36:38] INFO: Conexion a MySQL establecida
+[2026-05-13 06:36:38] INFO: Tablas verificadas correctamente
+[2026-05-13 06:36:38] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:36:55] INFO: Conexion a MySQL establecida
+[2026-05-13 06:36:55] INFO: Tablas verificadas correctamente
+[2026-05-13 06:36:55] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:37:02] INFO: Conexion a MySQL establecida
+[2026-05-13 06:37:02] INFO: Tablas verificadas correctamente
+[2026-05-13 06:37:02] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:37:15] INFO: Conexion a MySQL establecida
+[2026-05-13 06:37:15] INFO: Tablas verificadas correctamente
+[2026-05-13 06:37:15] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:37:43] INFO: Conexion a MySQL establecida
+[2026-05-13 06:37:43] INFO: Tablas verificadas correctamente
+[2026-05-13 06:37:43] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:38:35] INFO: Conexion a MySQL establecida
+[2026-05-13 06:38:35] INFO: Tablas verificadas correctamente
+[2026-05-13 06:38:35] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:39:35] INFO: Conexion a MySQL establecida
+[2026-05-13 06:39:36] INFO: Tablas verificadas correctamente
+[2026-05-13 06:39:36] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:40:36] INFO: Conexion a MySQL establecida
+[2026-05-13 06:40:36] INFO: Tablas verificadas correctamente
+[2026-05-13 06:40:36] ERROR: Error al iniciar backend: Unknown column 'correo' in 'where clause'
+[2026-05-13 06:40:56] INFO: Conexion a MySQL establecida
+[2026-05-13 06:40:57] INFO: Tablas verificadas correctamente
+[2026-05-13 06:40:57] INFO: Usuario administrador creado: admin@logistica.local
+[2026-05-13 06:40:57] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 06:41:07] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:41:07 +0000] "GET /api/health HTTP/1.1" 200 69 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:41:30] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 06:41:30] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:41:30 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:43:51] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:43:51 +0000] "GET /api/health HTTP/1.1" 200 69 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 06:43:51] ERROR: Ruta no encontrada: /favicon.ico
+[2026-05-13 06:43:51] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:43:51 +0000] "GET /favicon.ico HTTP/1.1" 404 62 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 06:46:12] INFO: Conexion a MySQL establecida
+[2026-05-13 06:46:24] INFO: Tablas verificadas correctamente
+[2026-05-13 06:46:24] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 06:58:52] INFO: Conexion a MySQL establecida
+[2026-05-13 06:58:57] INFO: Tablas verificadas correctamente
+[2026-05-13 06:58:57] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 06:59:07] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:59:07 +0000] "POST /api/public/pedidos HTTP/1.1" 201 339 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:59:08] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 06:59:08] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:59:08 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:59:08] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:59:08 +0000] "GET /api/pedidos HTTP/1.1" 200 314 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:59:08] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:59:08 +0000] "GET /api/public/rastreo/LR-000001 HTTP/1.1" 200 339 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:59:17] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 06:59:17] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:59:17 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:59:17] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:59:17 +0000] "PUT /api/pedidos/1 HTTP/1.1" 200 314 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 06:59:17] INFO: ::ffff:172.18.0.1 - - [13/May/2026:06:59:17 +0000] "GET /api/public/rastreo/LR-000001 HTTP/1.1" 200 341 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:02:04] INFO: Conexion a MySQL establecida
+[2026-05-13 07:02:04] INFO: Tablas verificadas correctamente
+[2026-05-13 07:02:04] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 07:05:42] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "GET /api/pedidos HTTP/1.1" 200 316 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "GET /api/auth/me HTTP/1.1" 200 138 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "GET /api/incidencias HTTP/1.1" 200 26 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "GET /api/conductores HTTP/1.1" 200 26 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:05:42] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:05:42 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:06:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:06:01 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:06:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:06:01 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:06:38] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:06:38 +0000] "POST /api/public/pedidos HTTP/1.1" 201 317 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:14] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:14 +0000] "POST /api/public/contacto HTTP/1.1" 201 167 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "GET /api/pedidos HTTP/1.1" 200 583 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "GET /api/auth/me HTTP/1.1" 200 138 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:36 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:54] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:54 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:07:54] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:07:54 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:08:29] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:08:29 +0000] "POST /api/public/pedidos HTTP/1.1" 201 316 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:08] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:08 +0000] "POST /api/public/contacto HTTP/1.1" 201 121 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:36] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:09:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:36 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:37] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:37 +0000] "GET /api/pedidos HTTP/1.1" 200 849 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:37] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:37 +0000] "GET /api/auth/me HTTP/1.1" 200 138 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:37] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:37 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:37] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:37 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:37] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:37 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:37] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:37 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:09:37] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:09:37 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:17:55] ERROR: Ruta no encontrada: /api/productos
+[2026-05-13 07:17:55] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:17:55 +0000] "GET /api/productos HTTP/1.1" 404 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:17:55] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:17:55 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:17:55] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:17:55 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:17:55] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:17:55 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:18:33] ERROR: Ruta no encontrada: /api/productos
+[2026-05-13 07:18:33] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:18:33 +0000] "GET /api/productos HTTP/1.1" 404 64 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:18:33] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:18:33 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:18:33] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:18:33 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:18:33] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:18:33 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:20:33] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:33] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:20:34] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:34] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:20:35] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:35] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:20:36] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:36] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:20:38] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:38] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:20:40] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:40] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:20:44] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:44] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:20:51] INFO: Conexion a MySQL establecida
+[2026-05-13 07:20:51] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:21:04] INFO: Conexion a MySQL establecida
+[2026-05-13 07:21:05] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:21:31] INFO: Conexion a MySQL establecida
+[2026-05-13 07:21:31] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:22:23] INFO: Conexion a MySQL establecida
+[2026-05-13 07:22:23] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:23:24] INFO: Conexion a MySQL establecida
+[2026-05-13 07:23:24] ERROR: Error al iniciar backend: Unknown column 'categoria' in 'field list'
+[2026-05-13 07:23:51] INFO: Conexion a MySQL establecida
+[2026-05-13 07:23:55] INFO: Tablas verificadas correctamente
+[2026-05-13 07:23:55] INFO: Usuario normal creado: cliente@logistica.local
+[2026-05-13 07:23:55] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 07:24:03] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:24:03 +0000] "GET /api/public/productos HTTP/1.1" 200 1320 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:15] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:25:15 +0000] "POST /api/public/pedidos HTTP/1.1" 201 664 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:16] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:25:16] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:25:16 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:16] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:25:16 +0000] "GET /api/pedidos HTTP/1.1" 200 1140 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:16] INFO: Usuario inicio sesion: cliente@logistica.local
+[2026-05-13 07:25:16] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:25:16 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:16] ERROR: No tienes permisos para acceder a este recurso
+[2026-05-13 07:25:16] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:25:16 +0000] "GET /api/pedidos HTTP/1.1" 403 76 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:16] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:25:16 +0000] "PUT /api/pedidos/4 HTTP/1.1" 200 316 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:16] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:25:16 +0000] "GET /api/public/rastreo/LR-000004 HTTP/1.1" 200 343 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:25:47] INFO: Conexion a MySQL establecida
+[2026-05-13 07:25:48] INFO: Tablas verificadas correctamente
+[2026-05-13 07:25:48] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 07:26:49] INFO: Conexion a MySQL establecida
+[2026-05-13 07:26:49] INFO: Tablas verificadas correctamente
+[2026-05-13 07:26:49] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/pedidos HTTP/1.1" 200 1142 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/productos HTTP/1.1" 200 1320 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:01 +0000] "GET /api/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:03] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:03 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:03] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:03 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:03] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:03 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:03] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:03 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:04] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:04 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:04] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:04 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:04] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:04 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:04] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:04 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:04] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:04 +0000] "GET /api/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:04] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:04 +0000] "GET /api/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:07] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:07 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:07] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:07 +0000] "GET /api/public/productos HTTP/1.1" 200 1320 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:07] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:07 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:07] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:07 +0000] "GET /api/public/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:09] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:09] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:09 +0000] "GET /api/public/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:09] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:09 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:09] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:09 +0000] "GET /api/public/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:24] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:24 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:24] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:24 +0000] "GET /api/public/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:24] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:24 +0000] "GET /api/auth/me HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:24] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:24 +0000] "GET /api/public/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:49] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:49 +0000] "GET /api/public/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:27:49] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:27:49 +0000] "GET /api/public/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:21] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:21 +0000] "POST /api/public/pedidos HTTP/1.1" 201 486 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:49] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:28:49] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:49 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/pedidos HTTP/1.1" 200 1412 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/auth/me HTTP/1.1" 200 138 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/productos HTTP/1.1" 200 1320 "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/pedidos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/conductores HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/incidencias HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:28:50] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:28:50 +0000] "GET /api/productos HTTP/1.1" 304 - "http://localhost:5173/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:38:21] INFO: Conexion a MySQL establecida
+[2026-05-13 07:38:24] INFO: Tablas verificadas correctamente
+[2026-05-13 07:38:24] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 07:38:56] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:56 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:38:56] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:56 +0000] "POST /api/public/pedidos HTTP/1.1" 201 493 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:38:56] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:56 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:38:56] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:38:56] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:56 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:38:57] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:57 +0000] "GET /api/pedidos HTTP/1.1" 200 2404 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:38:57] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:57 +0000] "PUT /api/pedidos/6 HTTP/1.1" 200 466 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:38:57] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:57 +0000] "GET /api/public/rastreo/LR-000006 HTTP/1.1" 200 493 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:38:57] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:38:57 +0000] "PUT /api/productos/4 HTTP/1.1" 200 436 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:39:15] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:39:15] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:39:15 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:39:15] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:39:15 +0000] "GET /api/pedidos HTTP/1.1" 200 2399 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:39:26] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:39:26 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:40:09] INFO: Conexion a MySQL establecida
+[2026-05-13 07:40:10] INFO: Tablas verificadas correctamente
+[2026-05-13 07:40:10] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 07:40:31] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:40:31 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:40:31] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:40:31 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:40:36] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:40:36 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:40:41] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:40:41 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:40:46] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:40:46 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:40:51] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:40:51 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:40:56] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:40:56 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:41:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:41:01 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:41:06] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:41:06 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:41:11] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:41:11 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:41:16] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:41:16 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:41:21] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:41:21 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "http://localhost:5174/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
+[2026-05-13 07:43:01] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:43:01 +0000] "GET /api/health HTTP/1.1" 200 69 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:45:59] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:45:59 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:46:19] INFO: Conexion a MySQL establecida
+[2026-05-13 07:46:19] INFO: Tablas verificadas correctamente
+[2026-05-13 07:46:19] INFO: Servidor backend escuchando en puerto 5000
+[2026-05-13 07:46:34] INFO: Usuario inicio sesion: admin@logistica.local
+[2026-05-13 07:46:34] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:46:34 +0000] "POST /api/auth/login HTTP/1.1" 200 357 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
+[2026-05-13 07:46:34] INFO: ::ffff:172.18.0.1 - - [13/May/2026:07:46:34 +0000] "GET /api/public/productos HTTP/1.1" 200 1674 "-" "Mozilla/5.0 (Windows NT; Windows NT 10.0; es-MX) WindowsPowerShell/5.1.26100.8457"
