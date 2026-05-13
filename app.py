@@ -1,5 +1,5 @@
 # app.py
-
+from db import get_connection
 import logging
 from flask import Flask, render_template
 from flask_cors import CORS
@@ -7,6 +7,7 @@ from flask_cors import CORS
 from routes.pedidos import routes
 from routes.productos import productos_routes
 from routes.usuarios import usuarios_routes
+from routes.dashboard import dashboard_routes
 
 app = Flask(__name__)
 
@@ -22,6 +23,7 @@ logging.basicConfig(
 app.register_blueprint(routes, url_prefix="/api")
 app.register_blueprint(productos_routes, url_prefix="/api")
 app.register_blueprint(usuarios_routes, url_prefix="/api")
+app.register_blueprint(dashboard_routes, url_prefix="/api")
 
 @app.route("/")
 def home():
@@ -29,8 +31,36 @@ def home():
 
 @app.route('/admin')
 def admin_page():
-    # Esto sirve para mostrar admin.html
-    return render_template('admin.html')
+
+    conn = get_connection()
+    cursor = conn.cursor(dictionary=True)
+
+    # TOTAL USUARIOS
+    cursor.execute("SELECT COUNT(*) as total FROM usuarios")
+    total_usuarios = cursor.fetchone()["total"]
+
+    # TOTAL PRODUCTOS
+    cursor.execute("SELECT COUNT(*) as total FROM productos")
+    total_productos = cursor.fetchone()["total"]
+
+    # TOTAL PEDIDOS
+    cursor.execute("SELECT COUNT(*) as total FROM pedidos")
+    total_pedidos = cursor.fetchone()["total"]
+
+    # LISTA DE USUARIOS
+    cursor.execute("SELECT id, nombre, email FROM usuarios")
+    usuarios = cursor.fetchall()
+
+    cursor.close()
+    conn.close()
+
+    return render_template(
+        'admin.html',
+        total_usuarios=total_usuarios,
+        total_productos=total_productos,
+        total_pedidos=total_pedidos,
+        usuarios=usuarios
+    )
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

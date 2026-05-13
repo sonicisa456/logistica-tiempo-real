@@ -1,11 +1,81 @@
-<!-- admin.html -->
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>Área Privada</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel Privado - TurboMercado</title>
+
+    <style>
+        body {
+            background: #111827;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #38bdf8;
+        }
+
+        .cards {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background: #1f2937;
+            padding: 20px;
+            border-radius: 12px;
+            width: 200px;
+        }
+
+        .card h2 {
+            margin: 0;
+            font-size: 40px;
+            color: #38bdf8;
+        }
+
+        .card p {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido al área privada</h1>
-    <p>Solo los usuarios con rol administrador deberían ver esto.</p>
+
+    <h1>Panel Privado TurboMercado</h1>
+
+    <div class="cards">
+
+        <div class="card">
+            <h2 id="usuarios">0</h2>
+            <p>Usuarios</p>
+        </div>
+
+        <div class="card">
+            <h2 id="productos">0</h2>
+            <p>Productos</p>
+        </div>
+
+        <div class="card">
+            <h2 id="pedidos">0</h2>
+            <p>Pedidos</p>
+        </div>
+
+    </div>
+
+    <script>
+        async function cargarDashboard() {
+            const response = await fetch('/api/dashboard');
+            const data = await response.json();
+
+            document.getElementById('usuarios').textContent = data.usuarios;
+            document.getElementById('productos').textContent = data.productos;
+            document.getElementById('pedidos').textContent = data.pedidos;
+        }
+
+        cargarDashboard();
+    </script>
+
 </body>
 </html>
